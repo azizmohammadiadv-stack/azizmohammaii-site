@@ -1006,6 +1006,99 @@ html[dir="rtl"] .label{
   font-weight:500;
 }
 </style>
+
+<style>
+/* LAYOUT_OVERLAP_GUARD_V14 */
+/* Keep artwork inside its own grid column on every section. */
+.hero-grid>*,
+.simorgh-grid>*,
+.compact-grid>*,
+.combined-story-grid>*,
+.advisory-grid>*,
+.statement-grid>*,
+.method-grid>*,
+.three-grid>*,
+.story-grid>*,
+.about-grid>*,
+.case-grid>*,
+.azki-frame>*,
+.contact-grid>*{
+  min-width:0;
+}
+
+.hero-art,
+.simorgh-art,
+.art,
+.case-art,
+.work-art,
+.contact-art{
+  max-width:100%;
+}
+
+.hero-art img,
+.simorgh-art img,
+.art img,
+.case-art img,
+.work-art img,
+.contact-art img{
+  max-width:100%;
+  height:auto;
+}
+
+@media (min-width:901px){
+  .hero-grid{
+    grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr)!important;
+    gap:clamp(34px,4vw,64px)!important;
+  }
+  .hero-grid>div:first-child{
+    position:relative;
+    z-index:2;
+  }
+  .hero-art.hero-workshop{
+    min-width:0!important;
+    max-width:100%!important;
+    overflow:hidden!important;
+    justify-content:center!important;
+    position:relative;
+    z-index:1;
+  }
+  .hero-art.hero-workshop img{
+    width:100%!important;
+    max-width:780px!important;
+    transform:none!important;
+    transform-origin:center!important;
+    margin-inline:auto!important;
+  }
+
+  /* Other visual sections: never let artwork bleed into copy. */
+  .simorgh-art,
+  .art,
+  .case-art,
+  .contact-art,
+  .azki-frame>div:has(>img){
+    overflow:hidden;
+  }
+  .simorgh-art img,
+  .art img,
+  .case-art img,
+  .contact-art img,
+  .azki-frame img{
+    width:100%;
+    object-fit:contain;
+  }
+}
+
+/* Same safety rule on tablets/mobile. */
+@media (max-width:900px){
+  .hero-art.hero-workshop,
+  .simorgh-art,
+  .art,
+  .case-art,
+  .contact-art{
+    overflow:hidden!important;
+  }
+}
+</style>
 </head>
 <body class="intro-active">
 <div aria-label="Enter website" class="site-intro" id="siteIntro"><button aria-label="Switch to Persian" class="lang-toggle intro-lang-toggle" data-lang-toggle="" type="button">فارسی</button>
