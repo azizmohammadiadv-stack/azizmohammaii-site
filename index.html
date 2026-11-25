@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="no-store, no-cache, must-revalidate, max-age=0" http-equiv="Cache-Control"/>
+<meta content="Mohammadmahdi Azizmohammadi — Strategic Brand &amp; Business Advisor · Story &amp; Narrative Architect" name="description"/>
+<title>Mohammadmahdi Azizmohammadi — Advisory</title>
+<style>
+    :root{
+      --bg:#ffffff;
+      --ink:#103d4a;
+      --body:#1f2b2f;
+      --muted:#6e797d;
+      --line:#dfe4e5;
+      --gold:#bf8d2d;
+      --soft:#f7f8f8;
+      --max:1240px;
+      --pad:clamp(24px,5vw,72px);
+      --h1:clamp(3.35rem,8vw,7.7rem);
+      --h2:clamp(2.15rem,4.8vw,5rem);
+      --h3:clamp(1.5rem,2.4vw,2.45rem);
+      --body-size:clamp(1rem,1.3vw,1.2rem);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--body);font-family:"IBM Plex Sans",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .shell{max-width:var(--max);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+    .eyebrow{font-size:.74rem;letter-spacing:.17em;text-transform:uppercase;color:var(--muted);font-weight:500;display:flex;align-items:center;gap:12px}
+    .eyebrow:before{content:"";width:36px;height:1px;background:var(--gold);display:inline-block}
+    .gold{color:var(--gold)}
+    .muted{color:var(--muted)}
+    .label{font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:600}
+    .lead{font-size:clamp(1.15rem,1.8vw,1.55rem);max-width:680px;color:#344247;line-height:1.52}
+    .bigquote{font-size:clamp(1.7rem,3vw,3rem);font-weight:500;line-height:1.18;color:var(--ink);max-width:920px}
+    .divider{height:1px;background:var(--line);margin:0 var(--pad)}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(223,228,229,.7)}
+    .nav{height:74px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:600;color:var(--ink);letter-spacing:.08em;font-size:1rem}
+    .navlinks{display:flex;gap:26px;align-items:center;font-size:.9rem;color:#45545a}
+    .navlinks a:hover{color:var(--ink)}
+    .menu{display:none;border:0;background:none;font:inherit;color:var(--ink);font-weight:600}
+
+    section{padding:clamp(72px,10vw,148px) 0;position:relative;overflow:hidden}
+    .hero{min-height:calc(100vh - 74px);display:flex;align-items:center;padding-top:clamp(70px,7vw,110px)}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(36px,6vw,86px);align-items:center}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-size:var(--h1);line-height:.91;letter-spacing:-.055em;color:var(--ink);margin-bottom:30px;font-weight:600}
+    h2{font-size:var(--h2);line-height:.98;letter-spacing:-.045em;color:var(--ink);font-weight:600;margin-bottom:28px}
+    h3{font-size:var(--h3);line-height:1.06;letter-spacing:-.025em;color:var(--ink);font-weight:600;margin-bottom:16px}
+    .hero .lead{max-width:610px}
+    .hero-meta{display:flex;gap:18px;flex-wrap:wrap;margin-top:30px;font-size:.9rem;color:var(--muted)}
+    .availability{margin-top:40px;display:flex;gap:10px;align-items:center;font-size:.9rem;color:#4b585d}
+    .dots{letter-spacing:.22em;color:var(--ink);font-size:1rem}
+    .hero-art{position:relative}
+    .hero-art:after{content:"";position:absolute;right:-7%;bottom:4%;width:42%;height:1px;background:var(--gold);opacity:.65}
+    .hero-art img{width:100%;mix-blend-mode:multiply}
+
+    .statement-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(46px,7vw,100px);align-items:start}
+    .problems{margin-top:42px;border-top:1px solid var(--line)}
+    .problem-row{display:grid;grid-template-columns:60px 1fr 1.15fr;gap:20px;padding:24px 0;border-bottom:1px solid var(--line);align-items:start}
+    .problem-row .num{color:var(--gold);font-weight:600;font-size:.9rem}
+    .problem-row strong{font-size:1.05rem;color:var(--ink)}
+    .problem-row p{margin:0;color:var(--muted)}
+
+    .advisory-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(46px,7vw,110px);align-items:center}
+    .offer-list{margin-top:38px}
+    .offer{padding:22px 0;border-bottom:1px solid var(--line)}
+    .offer:first-child{border-top:1px solid var(--line)}
+    .offer h3{font-size:1.25rem;margin:0 0 6px}
+    .offer p{color:var(--muted);margin:0;max-width:560px}
+    .art img{mix-blend-mode:multiply;width:100%}
+
+    .philosophy{background:linear-gradient(180deg,#fff,#fbfbfb)}
+    .philosophy .bigquote{margin-bottom:42px}
+    .fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px 80px;margin-top:44px}
+    .fit-item{border-top:1px solid var(--line);padding-top:14px;color:#3a484d}
+    .fit-item span{color:var(--gold);font-weight:600;margin-right:8px}
+
+    .method-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(50px,8vw,120px);align-items:center}
+    .steps{margin-top:35px}
+    .step{display:grid;grid-template-columns:56px 140px 1fr;gap:12px;padding:16px 0;border-bottom:1px solid var(--line);align-items:baseline}
+    .step .n{color:var(--gold);font-size:.82rem;font-weight:600}
+    .step strong{color:var(--ink)}
+    .step span:last-child{color:var(--muted)}
+
+    .lenses-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:42px}
+    .lens{padding:24px;border:1px solid var(--line);min-height:142px;background:#fff}
+    .lens h3{font-size:1.25rem;margin-bottom:6px}
+    .lens p{color:var(--muted);margin:0}
+
+    .three-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(50px,7vw,100px);align-items:center}
+    .three-copy ul{list-style:none;padding:0;margin:28px 0 0}
+    .three-copy li{padding:10px 0;color:#3e4b50}
+    .three-copy li:before{content:"—";color:var(--gold);margin-right:10px}
+
+    .story-grid,.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(50px,8vw,110px);align-items:center}
+    .story-copy .bigquote{font-size:clamp(1.55rem,2.4vw,2.55rem)}
+    .journey{margin-top:34px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 32px}
+    .journey div{padding:12px 0;border-bottom:1px solid var(--line)}
+    .journey strong{display:block;color:var(--ink)}
+    .journey span{color:var(--muted);font-size:.93rem}
+
+    .work-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:54px}
+    .work-head p{max-width:540px;color:var(--muted);margin:0}
+    .work-art{margin:0 0 58px}
+    .work-art img{width:100%;max-height:620px;object-fit:contain;mix-blend-mode:multiply}
+    .work-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--line)}
+    .work-link{padding:28px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:50px 1fr auto;gap:18px;align-items:center}
+    .work-link:nth-child(odd){padding-right:36px;border-right:1px solid var(--line)}
+    .work-link:nth-child(even){padding-left:36px}
+    .work-link .num{color:var(--gold);font-size:.82rem;font-weight:600}
+    .work-link strong{color:var(--ink);font-size:1.15rem}
+    .work-link small{display:block;color:var(--muted);margin-top:3px}
+    .arrow{color:var(--gold);font-size:1.4rem}
+
+    .case{border-top:1px solid var(--line)}
+    .case-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:clamp(48px,7vw,100px);align-items:center}
+    .case:nth-of-type(even) .case-grid{grid-template-columns:1.08fr .92fr}
+    .case:nth-of-type(even) .case-art{order:1}
+    .case:nth-of-type(even) .case-copy{order:2}
+    .case-art img{mix-blend-mode:multiply;width:100%;max-height:580px;object-fit:contain}
+    .case-shift{font-size:1rem;color:var(--gold);font-weight:500;margin:7px 0 30px}
+    .triad{margin-top:28px}
+    .triad-row{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:14px 0;border-top:1px solid var(--line)}
+    .triad-row .label{color:var(--gold)}
+    .role{margin-top:28px;padding-top:18px;border-top:1px solid var(--line);display:grid;grid-template-columns:90px 1fr;gap:10px 18px;font-size:.92rem}
+    .role .label{font-size:.7rem}
+    .role div:nth-child(even){color:#435157}
+    .metrics{margin-top:32px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .metric{padding:16px 0;border-top:2px solid var(--ink)}
+    .metric b{display:block;font-size:1.5rem;color:var(--ink);letter-spacing:-.03em}
+    .metric span{font-size:.82rem;color:var(--muted)}
+
+    .azki-intro{padding-bottom:70px}
+    .azki-intro h2{max-width:780px}
+    .azki-chain{font-size:clamp(1.15rem,2vw,1.8rem);color:var(--gold);font-weight:500;letter-spacing:-.02em;margin-top:28px}
+    .azki-frame{margin-top:50px;display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}
+    .azki-frame img{mix-blend-mode:multiply;width:100%}
+    .azki-block{border-top:1px solid var(--line);padding:28px 0}
+    .azki-block h3{margin-bottom:12px}
+    .azki-block p{color:var(--muted);margin-bottom:0}
+    .engine-list{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:34px}
+    .engine{border-top:2px solid var(--ink);padding-top:13px}
+    .engine .n{font-size:.75rem;color:var(--gold);font-weight:600}
+    .engine strong{font-size:.96rem;display:block;margin:7px 0;color:var(--ink)}
+    .engine small{color:var(--muted)}
+
+    .lesson{background:var(--soft)}
+    .lesson-list{margin-top:42px;max-width:980px}
+    .lesson-row{display:grid;grid-template-columns:70px 1fr;gap:20px;padding:24px 0;border-top:1px solid #d8dddd;font-size:clamp(1.1rem,1.8vw,1.45rem)}
+    .lesson-row .n{color:var(--gold);font-size:.88rem;font-weight:600;padding-top:4px}
+
+    .contact{min-height:86vh;display:flex;align-items:center}
+    .contact-grid{display:grid;grid-template-columns:1fr .92fr;gap:clamp(50px,8vw,110px);align-items:center;width:100%}
+    .contact h2{font-size:clamp(3.4rem,8vw,8rem);max-width:720px;margin-bottom:26px}
+    .contact-info{margin-top:34px;display:flex;flex-direction:column;gap:8px;color:#435157}
+    .contact-art img{max-height:560px;object-fit:contain;mix-blend-mode:multiply}
+    footer{padding:26px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+    .reveal.in{opacity:1;transform:none}
+    @media(max-width:900px){
+      .navlinks{display:none;position:absolute;top:74px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);padding:22px var(--pad);flex-direction:column;align-items:flex-start}
+      .navlinks.open{display:flex}.menu{display:block}
+      .hero{min-height:auto}
+      .hero-grid,.statement-grid,.advisory-grid,.method-grid,.three-grid,.story-grid,.about-grid,.case-grid,.azki-frame,.contact-grid{grid-template-columns:1fr}
+      .case:nth-of-type(even) .case-art,.case:nth-of-type(even) .case-copy{order:initial}
+      .hero-art{max-width:680px;margin:10px auto 0}
+      .problem-row{grid-template-columns:44px 1fr}.problem-row p{grid-column:2}
+      .fit-grid,.lenses-grid,.work-list{grid-template-columns:1fr}
+      .work-link:nth-child(odd){border-right:0;padding-right:0}.work-link:nth-child(even){padding-left:0}
+      .metrics{grid-template-columns:1fr 1fr 1fr}
+      .engine-list{grid-template-columns:1fr 1fr}
+      .work-head{align-items:start;flex-direction:column}
+    }
+    @media(max-width:600px){
+      .hero-meta{display:block}.hero-meta span{display:block;margin-bottom:6px}
+      .step{grid-template-columns:40px 100px 1fr;font-size:.92rem}
+      .metrics{grid-template-columns:1fr}
+      .engine-list{grid-template-columns:1fr}
+      .journey{grid-template-columns:1fr}
+      .triad-row{grid-template-columns:1fr;gap:5px}
+      .role{grid-template-columns:1fr;gap:4px}
+    }
+  
+
+/* === Mobile responsive refinement === */
+@media (max-width: 900px){
+  :root{
+    --pad: clamp(20px, 5vw, 34px);
+    --h1: clamp(3.1rem, 11vw, 5rem);
+    --h2: clamp(2.2rem, 8vw, 3.7rem);
+    --h3: clamp(1.45rem, 5.6vw, 2.15rem);
+    --body-size: 1rem;
+  }
+  body{overflow-x:hidden}
+  header{backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+  .nav{height:68px}
+  .brand{font-size:.9rem;letter-spacing:.07em;white-space:nowrap}
+  .menu{font-size:.85rem;letter-spacing:.08em;padding:10px 0}
+  .navlinks{top:68px;gap:16px;padding-top:18px;padding-bottom:22px;box-shadow:0 14px 30px rgba(10,35,45,.06)}
+  .navlinks a{font-size:1rem;width:100%;padding:5px 0}
+
+  section{padding:84px 0}
+  .hero{padding-top:54px;padding-bottom:74px;min-height:auto;align-items:flex-start}
+  .hero-grid,.statement-grid,.advisory-grid,.method-grid,.three-grid,.story-grid,.about-grid,.case-grid,.azki-frame,.contact-grid{gap:38px}
+  .hero-grid{align-items:start}
+  h1{line-height:.92;letter-spacing:-.05em;margin-bottom:24px}
+  h2{line-height:1;letter-spacing:-.04em;margin-bottom:22px}
+  h3{line-height:1.08}
+  .lead{font-size:1.08rem;line-height:1.58}
+  .bigquote{font-size:clamp(1.8rem,6.5vw,2.6rem);line-height:1.2}
+  .eyebrow{font-size:.66rem;letter-spacing:.15em;gap:10px}
+  .eyebrow:before{width:28px}
+  .hero-meta{gap:8px 14px;margin-top:24px;font-size:.84rem}
+  .availability{margin-top:28px;font-size:.86rem;align-items:flex-start}
+  .hero-art{width:100%;max-width:620px;margin:6px auto 0}
+  .hero-art:after{right:0;width:30%}
+  .hero-art img{max-height:520px;object-fit:contain;margin:0 auto}
+
+  .statement-grid{align-items:start}
+  .problems{margin-top:26px}
+  .problem-row{grid-template-columns:34px minmax(0,1fr);gap:10px 12px;padding:20px 0}
+  .problem-row strong{font-size:1rem;line-height:1.35}
+  .problem-row p{grid-column:2;font-size:.94rem;line-height:1.55}
+
+  .advisory-grid,.method-grid,.three-grid,.story-grid,.about-grid,.case-grid,.azki-frame,.contact-grid{align-items:start}
+  .offer-list{margin-top:24px}
+  .offer{padding:18px 0}
+  .offer h3{font-size:1.18rem}
+  .art{width:100%;max-width:620px;margin:2px auto 0}
+  .art img{max-height:520px;object-fit:contain;margin:0 auto}
+
+  .philosophy .bigquote{margin-bottom:30px}
+  .fit-grid{gap:0;margin-top:28px}
+  .fit-item{padding:16px 0}
+
+  .steps{margin-top:24px}
+  .step{grid-template-columns:36px minmax(0,1fr);gap:8px 12px;padding:15px 0;align-items:start}
+  .step .n{grid-column:1;grid-row:1 / span 2;padding-top:2px}
+  .step strong{grid-column:2;font-size:1rem}
+  .step span:last-child{grid-column:2;font-size:.93rem;line-height:1.5}
+
+  .lenses-grid{gap:12px;margin-top:28px}
+  .lens{min-height:auto;padding:20px}
+  .lens h3{font-size:1.12rem}
+
+  .three-copy ul{margin-top:22px}
+  .three-copy li{padding:8px 0}
+
+  .journey{gap:0}
+  .journey div{padding:14px 0}
+
+  .work-head{margin-bottom:32px;gap:14px}
+  .work-art{margin:0 0 34px}
+  .work-art img{max-height:480px}
+  .work-link{padding:20px 0;grid-template-columns:34px minmax(0,1fr) 24px;gap:12px}
+  .work-link strong{font-size:1.05rem}
+  .work-link small{font-size:.86rem;line-height:1.35}
+
+  .case{scroll-margin-top:68px}
+  .case-grid{gap:30px}
+  .case-art{max-width:620px;margin:0 auto;width:100%}
+  .case-art img{max-height:460px}
+  .case-shift{margin-bottom:22px}
+  .triad{margin-top:20px}
+  .triad-row{grid-template-columns:110px minmax(0,1fr);gap:12px;padding:12px 0}
+  .role{margin-top:22px;padding-top:14px}
+  .metrics{margin-top:24px;gap:10px}
+  .metric{padding:13px 0}
+  .metric b{font-size:1.35rem}
+
+  .azki-intro{padding-bottom:54px}
+  .azki-chain{margin-top:22px;line-height:1.35}
+  .azki-frame{margin-top:34px}
+  .azki-frame img{max-height:500px;object-fit:contain;margin:0 auto}
+  .azki-block{padding:22px 0}
+  .engine-list{margin-top:24px;gap:12px 18px}
+  .engine{padding-top:10px}
+
+  .lesson-list{margin-top:28px}
+  .lesson-row{grid-template-columns:38px minmax(0,1fr);gap:12px;padding:20px 0;font-size:1.05rem;line-height:1.45}
+
+  .contact{min-height:auto;padding-top:92px;padding-bottom:92px}
+  .contact h2{font-size:clamp(3rem,12vw,5.8rem);line-height:.92}
+  .contact-info{margin-top:26px;font-size:.96rem}
+  .contact-art{max-width:580px;margin:0 auto;width:100%}
+  .contact-art img{max-height:470px;margin:0 auto}
+  footer{padding:22px 0 30px}
+}
+
+@media (max-width: 640px){
+  :root{
+    --pad: 20px;
+    --h1: clamp(2.85rem, 13vw, 4.15rem);
+    --h2: clamp(2.05rem, 10vw, 3.15rem);
+    --h3: clamp(1.35rem, 7vw, 1.9rem);
+  }
+  section{padding:68px 0}
+  .hero{padding-top:42px;padding-bottom:62px}
+  .shell{width:100%}
+  h1{margin-bottom:20px}
+  h2{margin-bottom:18px}
+  .lead{font-size:1.03rem}
+  .hero-meta{display:grid;grid-template-columns:1fr;gap:5px;margin-top:20px}
+  .hero-meta span{margin:0}
+  .availability{margin-top:22px;gap:8px;line-height:1.35}
+  .hero-art img,.art img,.case-art img,.azki-frame img,.contact-art img{max-height:none;width:100%;height:auto}
+
+  .problem-row{padding:17px 0}
+  .fit-item{font-size:.95rem}
+  .lenses-grid{grid-template-columns:1fr}
+  .journey{grid-template-columns:1fr}
+  .work-list{grid-template-columns:1fr}
+  .work-link:nth-child(odd),.work-link:nth-child(even){padding-left:0;padding-right:0;border-right:0}
+  .work-link{grid-template-columns:30px minmax(0,1fr) 20px}
+
+  .triad-row{grid-template-columns:1fr;gap:5px}
+  .triad-row .label{margin-bottom:2px}
+  .role{grid-template-columns:1fr;gap:3px}
+  .role .label{margin-top:8px}
+  .metrics{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .metric{min-width:0}
+  .metric b{font-size:1.15rem;line-height:1.15;overflow-wrap:anywhere}
+  .metric span{font-size:.74rem;line-height:1.32}
+
+  .engine-list{grid-template-columns:1fr 1fr}
+  .engine strong{font-size:.9rem}
+  .engine small{font-size:.78rem;line-height:1.35;display:block}
+
+  .lesson-row{font-size:1rem}
+  .contact h2{font-size:clamp(2.8rem,14vw,4.4rem)}
+}
+
+@media (max-width: 420px){
+  :root{--pad:18px}
+  .brand{font-size:.82rem}
+  .menu{font-size:.78rem}
+  section{padding:60px 0}
+  .hero{padding-top:34px;padding-bottom:56px}
+  .eyebrow{font-size:.62rem}
+  .lead{font-size:1rem}
+  .metrics{grid-template-columns:1fr}
+  .metric{display:grid;grid-template-columns:100px 1fr;gap:12px;align-items:start;border-top-width:1px}
+  .metric b{font-size:1.2rem}
+  .metric span{font-size:.8rem;padding-top:2px}
+  .engine-list{grid-template-columns:1fr}
+  .lesson-row{grid-template-columns:30px minmax(0,1fr);gap:10px}
+  .contact-info{overflow-wrap:anywhere}
+}
+
+
+/* ===== PAGE 0 / INTRO — SINGLE FEATHER / CANVAS BURN ===== */
+body.intro-active{overflow:hidden;height:100vh}
+.site-intro{position:fixed;inset:0;z-index:9999;background:#fff;color:#171717;overflow:hidden;display:grid;place-items:center;transition:opacity .8s ease,transform .8s cubic-bezier(.2,.72,.25,1),filter .8s ease}
+.site-intro.exit{opacity:0;transform:scale(1.01);filter:brightness(1.025);pointer-events:none}
+.feather-intro-wrap{width:min(760px,92vw);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:translateY(-1vh);position:relative}
+.feather-stage{width:min(350px,52vw);aspect-ratio:5/8;position:relative;isolation:isolate;background:transparent;filter:drop-shadow(0 18px 28px rgba(41,49,54,.08))}
+.feather-canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:1;filter:contrast(1.11) saturate(1.18) brightness(1.055) drop-shadow(0 0 10px rgba(255,255,255,.92))}
+.feather-hit{position:absolute;z-index:4;border:0;background:transparent;cursor:pointer;padding:0;outline:none;-webkit-tap-highlight-color:transparent;left:18%;top:2%;width:64%;height:94%}
+.feather-hit::after{content:"";position:absolute;inset:7% 8%;border-radius:50%;opacity:0;background:radial-gradient(circle,rgba(214,163,84,.12),rgba(214,163,84,0) 68%);transition:opacity .24s ease,transform .24s ease;transform:scale(.92);filter:blur(14px)}
+.feather-hit:hover::after,.feather-hit:focus-visible::after{opacity:1;transform:scale(1.02)}
+.feather-hit:focus-visible{outline:1px solid rgba(174,111,39,.25);outline-offset:4px}
+.intro-instruction{margin-top:9px;font-family:Tahoma,"Segoe UI",sans-serif;direction:rtl;text-align:center;font-size:clamp(1.08rem,2vw,1.5rem);font-weight:400;letter-spacing:0;color:#202020}
+.intro-instruction::after{content:"";display:block;width:58px;height:1px;background:#b86e2d;margin:16px auto 0;opacity:.72}
+.site-intro.burning .intro-instruction{opacity:.33;transition:opacity .24s ease}
+@media(max-width:760px){.feather-intro-wrap{width:94vw;transform:translateY(-2vh)}.feather-stage{width:min(300px,70vw)}.intro-instruction{font-size:clamp(1.03rem,5vw,1.32rem)}}
+@media(max-height:680px){.feather-stage{width:min(270px,47vh)}.intro-instruction{margin-top:-3px}}
+
+
+.hero-art.hero-thinking img{width:100%;max-height:640px;object-fit:contain;margin-inline:auto;mix-blend-mode:normal;filter:none}
+.hero-art.hero-thinking:after{display:none}
+@media(max-width:900px){.hero-art.hero-thinking img{max-height:520px}}
+
+/* hero single-feather treatment */
+.hero-art img[src*="single_feather"]{max-height:570px;object-fit:contain;margin-inline:auto;filter:contrast(1.12) saturate(1.12) brightness(1.04) drop-shadow(0 18px 26px rgba(41,49,54,.08));mix-blend-mode:normal}
+.hero-art.single-feather:after{width:26%;right:5%;bottom:8%}
+html[dir="rtl"] .hero-art.single-feather:after{right:auto;left:5%}
+.feather-compact{display:flex;justify-content:center;align-items:center}
+.feather-compact img{width:min(100%,340px);max-height:430px;object-fit:contain;margin-inline:auto;filter:contrast(1.12) saturate(1.12) brightness(1.04) drop-shadow(0 14px 22px rgba(41,49,54,.06));mix-blend-mode:normal}
+.contact-note{margin-top:22px;padding-top:16px;border-top:1px solid var(--line);font-size:.95rem;color:#5a676b;max-width:600px}
+
+/* ===== Compact vertical rhythm ===== */
+section{padding:clamp(48px,6vw,86px) 0}
+.hero{padding-top:clamp(52px,5vw,80px);padding-bottom:clamp(52px,6vw,88px)}
+.azki-intro{padding-bottom:52px}
+.contact{padding-top:clamp(62px,7vw,96px);padding-bottom:clamp(62px,7vw,96px)}
+.ai-section{padding-top:clamp(44px,5vw,72px);padding-bottom:clamp(44px,5vw,72px)}
+.ai-section .ai-art{width:100%;margin:0 auto;position:relative}
+.ai-section .ai-art img{width:100%;height:auto;display:block;object-fit:contain}
+@media (max-width:900px){
+  section{padding:58px 0}
+  .hero{padding-top:42px;padding-bottom:58px}
+  .contact{padding-top:64px;padding-bottom:64px}
+  .ai-section{padding:46px 0}
+  .feather-compact img{width:min(78vw,290px);max-height:360px}
+}
+@media (max-width:640px){
+  section{padding:50px 0}
+  .hero{padding-top:36px;padding-bottom:50px}
+  .contact{padding-top:56px;padding-bottom:56px}
+  .ai-section{padding:40px 0}
+}
+@media (max-width:420px){
+  section{padding:44px 0}
+  .hero{padding-top:30px;padding-bottom:44px}
+  .ai-section{padding:36px 0}
+}
+
+
+/* bilingual language controls */
+.nav-actions{display:flex;align-items:center;gap:12px}
+.lang-toggle{appearance:none;border:1px solid rgba(16,61,74,.22);background:rgba(255,255,255,.94);color:var(--ink);font:inherit;font-size:.82rem;font-weight:600;line-height:1;padding:9px 14px;border-radius:999px;cursor:pointer;transition:border-color .2s ease,background .2s ease,transform .2s ease;z-index:24}
+.lang-toggle:hover{border-color:rgba(16,61,74,.5);background:#fff;transform:translateY(-1px)}
+.intro-lang-toggle{position:absolute;top:28px;right:32px;z-index:30;min-width:66px}
+html[dir="rtl"] body{direction:rtl;text-align:right;font-family:"Dana","Vazirmatn","IRANSansX",Tahoma,Arial,sans-serif;line-height:1.75}
+html[dir="rtl"] .intro-lang-toggle{right:auto;left:32px}
+html[dir="rtl"] .eyebrow,html[dir="rtl"] .label{letter-spacing:0;text-transform:none}
+html[dir="rtl"] .brand{letter-spacing:0}
+html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3{letter-spacing:-.025em;line-height:1.18}
+html[dir="rtl"] .hero-meta,html[dir="rtl"] .availability,html[dir="rtl"] .navlinks,html[dir="rtl"] .contact-info{direction:rtl}
+html[dir="rtl"] .contact-info a[href^="mailto"],html[dir="rtl"] .contact-info a[href^="tel"]{direction:ltr;unicode-bidi:isolate;text-align:right}
+html[dir="rtl"] .fit-item span{margin-right:0;margin-left:8px}
+html[dir="rtl"] .hero-art:after{right:auto;left:-7%}
+html[dir="rtl"] .intro-instruction{letter-spacing:0}
+html[dir="rtl"] .problem-row,html[dir="rtl"] .lesson-row,html[dir="rtl"] .journey-step,html[dir="rtl"] .engine{direction:rtl}
+@media(max-width:900px){.intro-lang-toggle{top:18px;right:18px}html[dir="rtl"] .intro-lang-toggle{right:auto;left:18px}.nav-actions{gap:8px}.lang-toggle{padding:8px 12px}}
+
+/* === Persian editorial refinement v2 === */
+html[dir="rtl"] .hero h1{
+  font-size:clamp(2.7rem,5vw,4.6rem);
+  line-height:1.14;
+  letter-spacing:-.035em;
+  margin-bottom:22px;
+}
+@media (min-width:901px){
+  html[dir="rtl"] .hero h1{white-space:nowrap;}
+}
+html[dir="rtl"] .hero .lead{font-size:clamp(1.02rem,1.45vw,1.28rem);line-height:1.75;max-width:620px;}
+html[dir="rtl"] .hero-meta{margin-top:22px;}
+html[dir="rtl"] .availability{margin-top:26px;}
+@media (min-width:901px) and (max-height:820px){
+  html[dir="rtl"] .hero{min-height:calc(100vh - 74px);padding-top:34px;padding-bottom:34px;}
+  html[dir="rtl"] .hero h1{font-size:clamp(2.5rem,4.25vw,3.9rem);margin-bottom:16px;}
+  html[dir="rtl"] .hero .lead{font-size:1rem;line-height:1.65;}
+  html[dir="rtl"] .hero-art img{max-height:58vh;object-fit:contain;}
+  html[dir="rtl"] .hero-meta{margin-top:16px;}
+  html[dir="rtl"] .availability{margin-top:18px;}
+}
+@media (max-width:900px){
+  html[dir="rtl"] .hero h1{font-size:clamp(2.35rem,9.5vw,3.7rem);line-height:1.16;white-space:normal;}
+}
+
+</style>
+
+<style>
+/* RTL_REFINED_SCALE_V3 */
+html[dir="rtl"]{--h1:clamp(2.65rem,5vw,4.55rem);--h2:clamp(1.9rem,3.35vw,3.15rem);--h3:clamp(1.25rem,1.9vw,1.75rem)}
+html[dir="rtl"] h1,html[dir="rtl"] h2,html[dir="rtl"] h3{line-height:1.2;letter-spacing:-.025em}
+html[dir="rtl"] h2{margin-bottom:20px;max-width:920px}
+html[dir="rtl"] h3{margin-bottom:12px}
+html[dir="rtl"] .hero h1{font-size:clamp(2.6rem,4.5vw,4.1rem);line-height:1.14;white-space:normal;max-width:760px;margin-bottom:18px}
+html[dir="rtl"] .hero .lead{font-size:clamp(1rem,1.25vw,1.18rem);line-height:1.85;max-width:650px}
+html[dir="rtl"] .bigquote,html[dir="rtl"] .story-copy .bigquote{font-size:clamp(1.45rem,2.15vw,2.05rem)!important;line-height:1.5}
+html[dir="rtl"] .case-copy h2{font-size:clamp(1.85rem,3vw,2.85rem)}
+html[dir="rtl"] .azki-intro h2,html[dir="rtl"] .azki-block h3{max-width:820px}
+html[dir="rtl"] .contact h2{font-size:clamp(2rem,3.6vw,3.35rem);line-height:1.2;max-width:760px;margin-bottom:20px}
+html[dir="rtl"] .work-head h2{font-size:clamp(1.9rem,3.2vw,3rem)}
+html[dir="rtl"] .lead{line-height:1.8}
+html[dir="rtl"] .problem-row strong{line-height:1.55}
+html[dir="rtl"] .problem-row p,html[dir="rtl"] .offer p,html[dir="rtl"] .triad-row span,html[dir="rtl"] .role,html[dir="rtl"] .lesson-row{line-height:1.85}
+@media (max-width:760px){
+html[dir="rtl"]{--h1:clamp(2.35rem,10vw,3.5rem);--h2:clamp(1.7rem,7vw,2.45rem);--h3:clamp(1.2rem,5.3vw,1.6rem)}
+html[dir="rtl"] .hero h1{font-size:clamp(2.25rem,9vw,3.35rem);line-height:1.18}
+html[dir="rtl"] .contact h2,html[dir="rtl"] .work-head h2,html[dir="rtl"] .case-copy h2{font-size:clamp(1.75rem,7.2vw,2.5rem);line-height:1.25}
+html[dir="rtl"] .bigquote,html[dir="rtl"] .story-copy .bigquote{font-size:clamp(1.35rem,5.8vw,1.9rem)!important}
+}
+</style>
+
+<style>
+/* RTL_HEADING_SCALE_V4 */
+html[dir="rtl"]{--h2:clamp(1.8rem,2.9vw,2.85rem);--h3:clamp(1.2rem,1.75vw,1.62rem)}
+html[dir="rtl"] h2{font-size:var(--h2)!important;line-height:1.23!important;max-width:900px!important;margin-bottom:18px!important}
+html[dir="rtl"] h3{font-size:var(--h3)!important;line-height:1.35!important}
+html[dir="rtl"] .contact h2,html[dir="rtl"] .work-head h2,html[dir="rtl"] .case-copy h2,html[dir="rtl"] .azki-intro h2{font-size:var(--h2)!important;line-height:1.23!important;max-width:900px!important}
+html[dir="rtl"] .hero h1{font-size:clamp(2.55rem,4.25vw,3.9rem)!important;line-height:1.16!important;max-width:760px!important}
+@media(max-width:760px){
+html[dir="rtl"]{--h2:clamp(1.65rem,6.7vw,2.2rem);--h3:clamp(1.15rem,5vw,1.48rem)}
+html[dir="rtl"] .hero h1{font-size:clamp(2.15rem,8.5vw,3.05rem)!important;line-height:1.2!important}
+}
+</style>
+
+<style>
+/* HERO_ONE_VIEWPORT_V11 */
+@media (min-width: 901px){
+  .hero{
+    height:calc(100vh - 74px);
+    min-height:620px;
+    max-height:900px;
+    padding:12px 0 16px;
+    display:flex;
+    align-items:center;
+  }
+  .hero .shell{width:100%;max-width:1380px;}
+  .hero-grid{
+    height:100%;
+    grid-template-columns:.78fr 1.22fr;
+    gap:clamp(16px,2.6vw,42px);
+    align-items:center;
+  }
+  .hero-grid>div:first-child{align-self:center;}
+  .hero-art.hero-workshop{
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    margin:0;
+    max-width:none;
+    overflow:visible;
+  }
+  .hero-art.hero-workshop:after{display:none;}
+  .hero-art.hero-workshop img{
+    width:min(100%,860px);
+    max-width:860px;
+    height:auto;
+    max-height:calc(100vh - 92px);
+    object-fit:contain;
+    mix-blend-mode:normal;
+    filter:none;
+    transform:scale(1.14);
+    transform-origin:center left;
+  }
+  html[dir="rtl"] .hero-art.hero-workshop img{transform-origin:center left;}
+  .hero h1{margin-bottom:18px;}
+  .hero .lead{font-size:clamp(1rem,1.18vw,1.15rem);line-height:1.62;}
+  .hero-meta{margin-top:18px;}
+  html[dir="rtl"] .hero h1{font-size:clamp(2.45rem,3.8vw,3.55rem)!important;line-height:1.14!important;max-width:690px!important;margin-bottom:14px!important;}
+  html[dir="rtl"] .hero .lead{font-size:clamp(.96rem,1.06vw,1.08rem);line-height:1.72;max-width:620px;}
+  html[dir="rtl"] .hero-meta{margin-top:14px;}
+}
+@media (min-width:901px) and (max-height:760px){
+  .hero{min-height:0;height:calc(100vh - 74px);padding:8px 0 10px;}
+  .hero-art.hero-workshop img{max-height:calc(100vh - 82px);width:min(100%,800px);max-width:800px;transform:scale(1.08);}
+  .hero h1{font-size:clamp(2.8rem,5.2vw,4.9rem);margin-bottom:12px;}
+  .hero .lead{font-size:.98rem;line-height:1.52;}
+  .hero-meta{margin-top:12px;font-size:.82rem;}
+  html[dir="rtl"] .hero h1{font-size:clamp(2.25rem,3.5vw,3.15rem)!important;}
+  html[dir="rtl"] .hero .lead{font-size:.93rem;line-height:1.58;}
+}
+@media (max-width:900px){
+  .hero-art.hero-workshop{max-width:760px;margin:0 auto;}
+  .hero-art.hero-workshop:after{display:none;}
+  .hero-art.hero-workshop img{width:100%;max-height:610px;object-fit:contain;mix-blend-mode:normal;filter:none;transform:none;}
+}
+</style>
+</head>
+<body class="intro-active">
+<div aria-label="Enter website" class="site-intro" id="siteIntro"><button aria-label="Switch to Persian" class="lang-toggle intro-lang-toggle" data-lang-toggle="" type="button">فارسی</button>
+<div class="feather-intro-wrap">
+<div class="feather-stage" id="featherStage">
+<canvas aria-label="White feather" class="feather-canvas" height="1120" id="burnCanvas" width="700"></canvas>
+<button aria-label="Burn the feather" class="feather-hit" id="featherHit" type="button"></button>
+</div>
+<div class="intro-instruction">Light the feather to enter.</div>
+</div>
+</div>
+<header>
+<div class="shell nav">
+<a class="brand" href="#top">MM / ADVISORY</a>
+
+<nav class="navlinks">
+<a href="#advisory">Advisory</a>
+<a href="#thinking">Thinking</a>
+<a href="#work">Work</a>
+<a href="#story">Story</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="nav-actions"><button aria-label="Switch to Persian" class="lang-toggle header-lang-toggle" data-lang-toggle="" type="button">فارسی</button><button aria-label="Toggle menu" class="menu">MENU</button></div></div>
+</header>
+<main id="top">
+<section class="hero">
+<div class="shell hero-grid">
+<div class="reveal">
+<div class="eyebrow">Advisory</div>
+<h1>See clearly.<br/>Decide better.</h1>
+<p class="lead">I help business leaders make sense of complex problems — finding what really matters before deciding what to do next.</p>
+<div class="hero-meta"><span>Brand</span><span>Customer Experience</span><span>Creative Strategy</span><span>Human Insight</span></div>
+
+</div>
+<div class="hero-art hero-workshop reveal"><img alt="Creative workshop thinking illustration" src="assets/hero_sketch_workshop.png"/></div>
+</div>
+</section>
+<div class="divider"></div>
+<section id="thinking">
+<div class="shell statement-grid">
+<div class="reveal">
+<div class="eyebrow">Problem framing</div>
+<h2>The problem you see may not be the problem you have.</h2>
+<p class="lead">The work starts with finding the right problem.</p>
+</div>
+<div class="problems reveal">
+<div class="problem-row"><div class="num">01</div><strong>“Our content isn’t working.”</strong><p>Maybe. Or maybe the brand has nothing meaningful to say.</p></div>
+<div class="problem-row"><div class="num">02</div><strong>“Customers don’t trust us.”</strong><p>Maybe it’s communication. Or maybe the experience is telling a different story.</p></div>
+<div class="problem-row"><div class="num">03</div><strong>“Sales are slowing down.”</strong><p>Advertising may be part of it. More advertising may not be the answer.</p></div>
+<div class="problem-row"><div class="num">04</div><strong>“Our brand feels inconsistent.”</strong><p>Maybe there is no shared direction behind the decisions.</p></div>
+</div>
+</div>
+</section>
+<section id="advisory">
+<div class="shell advisory-grid">
+<div class="reveal">
+<div class="eyebrow">Advisory</div>
+<h2>A senior second brain for complex decisions.</h2>
+<p class="lead">My focus is the problem, the direction and the decisions. Internal teams and specialist partners bring them to life.</p>
+<div class="offer-list">
+<div class="offer"><h3>Strategic Advisory</h3><p>Independent perspective for complex questions, decisions and problem framing.</p></div>
+<div class="offer"><h3>Strategic Partnership</h3><p>An ongoing relationship built around deeper context, strategic conversations and decision support.</p></div>
+<div class="offer"><h3>Strategic Transformation</h3><p>A focused engagement around a defined challenge: brand, positioning, CX, insight or communication transformation.</p></div>
+</div>
+</div>
+<div class="art reveal"><img alt="Advisory architectural sketch" src="assets/site_02.png"/></div>
+</div>
+</section>
+<section class="philosophy">
+<div class="shell advisory-grid">
+<div class="art reveal"><img alt="Seat beside the decision-maker sketch" src="assets/site_03.png"/></div>
+<div class="reveal">
+<div class="eyebrow">Advisory philosophy</div>
+<h2>The seat beside the decision-maker.</h2>
+<p class="lead">Close enough to understand the context. Independent enough to see it differently.</p>
+<div class="fit-grid">
+<div class="fit-item"><span>01</span>There is room for independent thinking.</div>
+<div class="fit-item"><span>02</span>Decision-makers are part of the conversation.</div>
+<div class="fit-item"><span>03</span>There is a capable team around the work.</div>
+<div class="fit-item"><span>04</span>Questions matter as much as answers.</div>
+<div class="fit-item"><span>05</span>Clarity matters more than activity.</div>
+</div>
+<p class="bigquote" style="margin-top:42px;font-size:clamp(1.35rem,2.2vw,2.2rem)">I don’t sit above the team. <span class="gold">I sit beside the problem.</span></p>
+</div>
+</div>
+</section>
+<section>
+<div class="shell method-grid">
+<div class="reveal">
+<div class="eyebrow">Thinking</div>
+<h2>I start with the question, not the answer.</h2>
+<p class="lead">The useful part of strategy often happens before the solution: seeing what is actually happening and framing the problem clearly enough to make a better decision.</p>
+<div class="steps">
+<div class="step"><span class="n">01</span><strong>SEE</strong><span>What’s actually happening?</span></div>
+<div class="step"><span class="n">02</span><strong>UNDERSTAND</strong><span>Why is it happening?</span></div>
+<div class="step"><span class="n">03</span><strong>FRAME</strong><span>What’s the real problem?</span></div>
+<div class="step"><span class="n">04</span><strong>DECIDE</strong><span>What deserves action?</span></div>
+<div class="step"><span class="n">05</span><strong>GUIDE</strong><span>How does direction stay clear?</span></div>
+</div>
+</div>
+<div class="art reveal"><img alt="Strategic thinking sketch" src="assets/site_04.png"/></div>
+</div>
+</section>
+<section style="padding-top:40px">
+<div class="shell advisory-grid">
+<div class="art reveal"><img alt="Four lenses architectural sketch" src="assets/site_05.png"/></div>
+<div class="reveal">
+<div class="eyebrow">Four lenses</div>
+<h2>From a complex world to a clearer path.</h2>
+<div class="lenses-grid">
+<div class="lens"><h3>Business</h3><p>Reality.</p></div>
+<div class="lens"><h3>Human</h3><p>Behavior.</p></div>
+<div class="lens"><h3>Brand &amp; Experience</h3><p>Perception.</p></div>
+<div class="lens"><h3>Narrative</h3><p>Meaning.</p></div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="shell three-grid">
+<div class="three-copy reveal">
+<div class="eyebrow">How I work</div>
+<h2>Start with the real problem.</h2>
+<ul>
+<li>You don’t need a finished brief.</li>
+<li>Bring the question that keeps circling back.</li>
+<li>We frame it, challenge it and decide what actually deserves action.</li>
+<li>Then your team can move with a clearer direction.</li>
+</ul>
+<p class="bigquote" style="margin-top:34px;font-size:clamp(1.25rem,2vw,2rem)">“You don’t need the answer to start. You need the right question.”</p>
+</div>
+<div class="art reveal feather-compact"><img alt="White feather illustration" src="assets/single_feather_pearl.png"/></div>
+</div>
+</section>
+<section id="story">
+<div class="shell story-grid">
+<div class="story-copy reveal">
+<div class="eyebrow">Storytelling &amp; cinema</div>
+<h2>Stories taught me something strategy couldn’t.</h2>
+<p class="lead">People want things. Fear things. Resist things. Contradict themselves. Change their minds. Businesses are made of those same people.</p>
+<p class="bigquote" style="margin-top:32px">Human behavior, under pressure.</p>
+<p class="muted">Screenwriting sharpened the way I look at motivation, conflict, contradiction, emotional pacing and the gap between what people say and what they do.</p>
+</div>
+<div class="art reveal"><img alt="Storytelling and cinema sketch" src="assets/site_07.png"/></div>
+</div>
+</section>
+<section id="about">
+<div class="shell about-grid">
+<div class="art reveal"><img alt="Career path sketch" src="assets/site_08.png"/></div>
+<div class="reveal">
+<div class="eyebrow">About</div>
+<h2>I didn’t get here in a straight line.</h2>
+<p class="lead">Engineering taught me systems. Field sales taught me real customers. Marketing taught me markets. Brand taught me meaning. CX taught me experience. Screenwriting taught me human motivation.</p>
+<div class="journey">
+<div><strong>Engineering</strong><span>Systems and industrial reality.</span></div>
+<div><strong>Field Sales</strong><span>Real customers and real rejection.</span></div>
+<div><strong>Marketing</strong><span>Markets and attention.</span></div>
+<div><strong>Brand</strong><span>Meaning.</span></div>
+<div><strong>Customer Experience</strong><span>The distance between promise and reality.</span></div>
+<div><strong>Screenwriting</strong><span>Motivation, conflict and contradiction.</span></div>
+</div>
+</div>
+</div>
+</section>
+<section id="work">
+<div class="shell">
+<div class="work-head reveal"><div><div class="eyebrow">Selected work</div><h2>Six stories.<br/>One way of thinking.</h2></div><p>Less about what was produced. More about what changed in the way the problem was seen.</p></div>
+<div class="work-art reveal"><img alt="Six selected work architectural vignettes" src="assets/site_09.png"/></div>
+<div class="work-list reveal">
+<a class="work-link" href="#nikan"><span class="num">01</span><div><strong>Nikan Hospitals</strong><small>Brand → Experience</small></div><span class="arrow">↘</span></a>
+<a class="work-link" href="#nikan365"><span class="num">02</span><div><strong>Nikan365</strong><small>Visit → Relationship</small></div><span class="arrow">↘</span></a>
+<a class="work-link" href="#hamrah"><span class="num">03</span><div><strong>Hamrah Mechanic</strong><small>Trust → Familiarity</small></div><span class="arrow">↘</span></a>
+<a class="work-link" href="#khanoumi"><span class="num">04</span><div><strong>Khanoumi</strong><small>Campaign → Participation</small></div><span class="arrow">↘</span></a>
+<a class="work-link" href="#baman"><span class="num">05</span><div><strong>Baman</strong><small>Product → Relevance</small></div><span class="arrow">↘</span></a>
+<a class="work-link" href="#azki"><span class="num">06</span><div><strong>Azki Seller</strong><small>Communication → Trust → Activation → Growth</small></div><span class="arrow">↘</span></a>
+</div>
+</div>
+</section>
+<section class="case" id="nikan">
+<div class="shell case-grid">
+<div class="case-copy reveal">
+<div class="eyebrow">Selected case</div><h2>Nikan Hospitals</h2><div class="case-shift">Brand → Experience</div>
+<div class="triad"><div class="triad-row"><span class="label">Signal</span><span>Nikan was investing across brand, marketing, content, digital products and patient-facing touchpoints.</span></div><div class="triad-row"><span class="label">Real problem</span><span>The brand wasn’t only being communicated. It was being experienced.</span></div><div class="triad-row"><span class="label">Direction</span><span>From Brand Management to Brand Experience.</span></div></div>
+<div class="role"><span class="label">Role</span><div>Manager — Branding, Marketing &amp; CX</div><span class="label">Contribution</span><div>Led the shift from brand communication toward a broader patient-experience system.</div></div>
+<div class="metrics"><div class="metric"><b>9</b><span>digital healthcare platforms</span></div><div class="metric"><b>500K+</b><span>users in the Nikan365 ecosystem</span></div><div class="metric"><b>Brand → CX</b><span>a broader experience system</span></div></div>
+</div>
+<div class="case-art reveal"><img alt="Nikan Hospitals results illustration" src="assets/site_10.png"/></div>
+</div>
+</section>
+<section class="case" id="nikan365">
+<div class="shell case-grid">
+<div class="case-art reveal"><img alt="Nikan365 care journey illustration" src="assets/site_11.png"/></div>
+<div class="case-copy reveal">
+<div class="eyebrow">Selected case</div><h2>Nikan365</h2><div class="case-shift">Visit → Relationship</div>
+<div class="triad"><div class="triad-row"><span class="label">Signal</span><span>A patient’s relationship with a hospital is usually concentrated around a visit.</span></div><div class="triad-row"><span class="label">Real problem</span><span>The opportunity wasn’t just to digitize the visit. It was to extend the relationship beyond it.</span></div><div class="triad-row"><span class="label">Direction</span><span>From a digital platform to an ongoing patient relationship.</span></div></div>
+<div class="role"><span class="label">Role</span><div>Manager — Branding, Marketing &amp; CX</div><span class="label">Contribution</span><div>Helped shape Nikan365 as an ongoing patient-relationship layer within the wider digital ecosystem.</div></div>
+<div class="metrics"><div class="metric"><b>500K+</b><span>users across the ecosystem</span></div><div class="metric"><b>9</b><span>digital platforms in the wider transformation</span></div><div class="metric"><b>Visit → Relationship</b><span>continuity beyond the hospital encounter</span></div></div>
+</div>
+</div>
+</section>
+<section class="case" id="hamrah">
+<div class="shell case-grid">
+<div class="case-copy reveal"><div class="eyebrow">Selected case</div><h2>Hamrah Mechanic</h2><div class="case-shift">Trust → Familiarity</div>
+<div class="triad"><div class="triad-row"><span class="label">Signal</span><span>Buying and selling a car is high-friction: significant money, asymmetric information and fragile trust.</span></div><div class="triad-row"><span class="label">Real problem</span><span>Trust wasn’t only a rational issue. It was a relationship issue.</span></div><div class="triad-row"><span class="label">Direction</span><span>From an automotive service to a familiar companion — «آشنا».</span></div></div>
+<div class="role"><span class="label">Role</span><div>Creative Director</div><span class="label">Contribution</span><div>Led creative direction, cultural reframing and brand storytelling around familiarity and trust.</div></div>
+<div class="metrics"><div class="metric"><b>+50%</b><span>social audience growth recorded for the period</span></div><div class="metric"><b>آشنا</b><span>the cultural framing of familiarity</span></div><div class="metric"><b>Trust → Familiarity</b><span>a more human relationship model</span></div></div>
+</div>
+<div class="case-art reveal"><img alt="Hamrah Mechanic architectural sketch" src="assets/site_12.png"/></div>
+</div>
+</section>
+<section class="case" id="khanoumi">
+<div class="shell case-grid">
+<div class="case-art reveal"><img alt="Khanoumi participatory brand experience" src="assets/site_13.png"/></div>
+<div class="case-copy reveal"><div class="eyebrow">Selected case</div><h2>Khanoumi</h2><div class="case-shift">Campaign → Participation</div>
+<div class="triad"><div class="triad-row"><span class="label">Signal</span><span>Beauty is emotionally rich, yet communication can collapse into offers, products and promotional messages.</span></div><div class="triad-row"><span class="label">Real problem</span><span>The opportunity wasn’t simply to make campaigns more visible. It was to give people something to enter.</span></div><div class="triad-row"><span class="label">Direction</span><span>From campaign communication to participatory brand experience.</span></div></div>
+<div class="role"><span class="label">Role</span><div>Creative Director</div><span class="label">Contribution</span><div>Led campaign concepts, participatory ideas and phygital experiences across the brand.</div></div>
+<div class="metrics"><div class="metric"><b>+30%</b><span>sales lifts on campaign work, recorded for the period</span></div><div class="metric"><b>Audience → Participant</b><span>interaction over one-way messaging</span></div><div class="metric"><b>Phygital</b><span>physical + digital participation</span></div></div>
+</div>
+</div>
+</section>
+<section class="case" id="baman">
+<div class="shell case-grid">
+<div class="case-copy reveal"><div class="eyebrow">Selected case</div><h2>Baman</h2><div class="case-shift">Product → Relevance</div>
+<div class="triad"><div class="triad-row"><span class="label">Signal</span><span>Digital financial products can be useful and still feel distant.</span></div><div class="triad-row"><span class="label">Real problem</span><span>The gap wasn’t only between product and communication. It was between product logic and human relevance.</span></div><div class="triad-row"><span class="label">Direction</span><span>From product communication to meaningful use.</span></div></div>
+<div class="role"><span class="label">Role</span><div>Creative Mind Lead</div><span class="label">Contribution</span><div>Connected product communication with relevance, acquisition and growth-oriented creative work.</div></div>
+<div class="metrics"><div class="metric"><b>+17%</b><span>app-user growth from targeted campaigns</span></div><div class="metric"><b>Creative × Growth</b><span>product communication linked to acquisition</span></div><div class="metric"><b>Product → Relevance</b><span>a more human reason to matter</span></div></div>
+</div>
+<div class="case-art reveal"><img alt="Baman product growth illustration" src="assets/site_14.png"/></div>
+</div>
+</section>
+<section class="azki-intro" id="azki">
+<div class="shell">
+<div class="eyebrow reveal">Flagship case · Azki Seller</div>
+<h2 class="reveal">Communication was only the surface.</h2>
+<div class="azki-chain reveal">Communication → Trust → Activation → Growth</div>
+<div class="azki-frame">
+<div class="reveal"><img alt="Azki Seller problem architecture" src="assets/site_15.png"/></div>
+<div class="reveal">
+<div class="azki-block"><h3>The first problem wasn’t awareness. It was confidence.</h3><p>Seller hesitation appeared around customer ownership, renewal, data, operational reliability and business value.</p></div>
+<div class="role"><span class="label">Role</span><div>Supervisor Brand &amp; Marketing Communications</div><span class="label">Contribution</span><div>Built the problem frame, trust architecture, seller lifecycle and growth-system direction.</div></div>
+</div>
+</div>
+</div>
+</section>
+<section style="padding-top:40px">
+<div class="shell azki-frame">
+<div class="reveal"><div class="eyebrow">Trust architecture</div><h2>Don’t say “trust us.”<br/><span class="gold">Make trust inspectable.</span></h2>
+<div class="triad"><div class="triad-row"><span class="label">Product Truth</span><span>Customer ownership · Renewal · Data · Rules</span></div><div class="triad-row"><span class="label">Operational Truth</span><span>SLA · Issuance · Support · Problem resolution</span></div><div class="triad-row"><span class="label">Human Proof</span><span>Seller stories · Networks · Centers</span></div></div>
+</div>
+<div class="reveal"><img alt="Trust architecture" src="assets/site_16.png"/></div>
+</div>
+</section>
+<section style="padding-top:40px">
+<div class="shell azki-frame">
+<div class="reveal"><img alt="Seller growth system journey" src="assets/site_17.png"/></div>
+<div class="reveal"><div class="eyebrow">Seller journey</div><h2>A seller growth system.</h2>
+<div class="steps">
+<div class="step"><span class="n">01</span><strong>DISCOVER</strong><span>Is this for me?</span></div><div class="step"><span class="n">02</span><strong>TRUST</strong><span>Is my customer safe?</span></div><div class="step"><span class="n">03</span><strong>ACTIVATE</strong><span>Can I start?</span></div><div class="step"><span class="n">04</span><strong>EARN</strong><span>Does it make money?</span></div><div class="step"><span class="n">05</span><strong>EXPAND</strong><span>What else can I sell?</span></div><div class="step"><span class="n">06</span><strong>BUILD</strong><span>How do I grow?</span></div><div class="step"><span class="n">07</span><strong>ADVOCATE</strong><span>Why recommend it?</span></div>
+</div>
+</div>
+</div>
+</section>
+<section style="padding-top:40px">
+<div class="shell">
+<div class="eyebrow reveal">Growth engines</div><h2 class="reveal">Five growth engines.</h2>
+<div class="work-art reveal" style="margin-top:34px"><img alt="Five growth engines" src="assets/site_18.png"/></div>
+<div class="engine-list reveal"><div class="engine"><span class="n">01</span><strong>Seller Activation</strong><small>Registration → Productive Seller</small></div><div class="engine"><span class="n">02</span><strong>Seller Economics</strong><small>Commission → Tangible Value</small></div><div class="engine"><span class="n">03</span><strong>Product Growth</strong><small>Product × Ops × Marketing</small></div><div class="engine"><span class="n">04</span><strong>Business Growth</strong><small>Seller → Network → Center</small></div><div class="engine"><span class="n">05</span><strong>Trust &amp; Advocacy</strong><small>Claim → Proof → Seller Voice</small></div></div>
+</div>
+</section>
+<section style="padding-top:40px">
+<div class="shell statement-grid">
+<div class="reveal"><div class="eyebrow">Strategic output</div><h2>The website as a Seller Decision Engine.</h2><p class="lead">The website can do more than explain the product. It can help a seller make a decision.</p></div>
+<div class="reveal"><div class="lenses-grid"><div class="lens"><h3>Question</h3><p>What do I need to know?</p></div><div class="lens"><h3>Proof</h3><p>Why should I believe it?</p></div><div class="lens"><h3>Economics</h3><p>Does it make sense?</p></div><div class="lens"><h3>Opportunity</h3><p>Can this grow with me?</p></div></div>
+<div class="offer-list"><div class="offer"><h3>Outputs</h3><p>Seller-growth architecture · Trust-proof framework · Lifecycle &amp; CRM direction · Website decision architecture · Claims governance · Five growth engines · Cross-functional operating model · 90-day roadmap · Creative territories.</p></div></div>
+</div>
+</div>
+</section>
+<section class="lesson">
+<div class="shell"><div class="eyebrow reveal">Azki Seller · The lesson</div><h2 class="reveal">What problem framing does.</h2>
+<div class="lesson-list reveal"><div class="lesson-row"><span class="n">01</span><span>What looked like a communication problem became a trust problem.</span></div><div class="lesson-row"><span class="n">02</span><span>What looked like a trust problem became an activation problem.</span></div><div class="lesson-row"><span class="n">03</span><span>What looked like an activation problem became a growth-system problem.</span></div></div>
+</div>
+</section>
+<section class="contact" id="contact">
+<div class="shell contact-grid">
+<div class="reveal"><div class="eyebrow">Contact</div><h2>Bring me the problem.</h2><p class="lead">You don’t need a polished brief. If something in the business feels stuck, unclear, or important enough to deserve a sharper look, that’s enough to start.</p><p class="contact-note">Project-based engagements, strategic reviews and ongoing advisory are all possible.</p><div class="contact-info"><strong>Mohammadmahdi Azizmohammadi</strong><a href="mailto:m.azizmohammadi@gmail.com">m.azizmohammadi@gmail.com</a><a href="tel:+989124781163">+98 912 478 1163</a></div></div>
+<div class="contact-art reveal"><img alt="Mohammadmahdi Azizmohammadi portrait" src="assets/site_19.png"/></div>
+</div>
+</section>
+</main>
+<footer><div class="shell">Mohammadmahdi Azizmohammadi · Strategic Brand &amp; Business Advisor · Story &amp; Narrative Architect</div></footer>
+<script>
+  const menu=document.querySelector('.menu');const links=document.querySelector('.navlinks');
+  menu?.addEventListener('click',()=>links.classList.toggle('open'));
+  document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+  const io=new IntersectionObserver((entries)=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+<script>
+(() => {
+  const intro=document.getElementById('siteIntro');
+  const canvas=document.getElementById('burnCanvas');
+  const hit=document.getElementById('featherHit');
+  if(!intro || !canvas || !hit) return;
+  const ctx=canvas.getContext('2d');
+  const W=canvas.width,H=canvas.height;
+  const img=new Image();
+  let ready=false,locked=false;
+  let clickX=W*.5, clickY=H*.72;
+  let edgeNoise=[];
+  let embers=[];
+
+  function drawBase(){
+    ctx.clearRect(0,0,W,H);
+    ctx.drawImage(img,0,0,W,H);
+  }
+
+  img.onload=()=>{ready=true;drawBase();};
+  img.src='assets/single_feather_pearl.png';
+
+  function easeOut(t){return 1-Math.pow(1-t,2.25)}
+  function pointRadius(i,r,phase){
+    const a=(i/96)*Math.PI*2;
+    const n=edgeNoise[i]||0;
+    return r*(1 + .045*Math.sin(a*5+phase) + .027*Math.sin(a*11-phase*1.4) + .018*n);
+  }
+  function pathFor(cx,cy,r,phase){
+    const p=new Path2D();
+    for(let i=0;i<96;i++){
+      const a=(i/96)*Math.PI*2;
+      const rr=pointRadius(i,r,phase);
+      const x=cx+Math.cos(a)*rr;
+      const y=cy+Math.sin(a)*rr*.92;
+      if(i===0)p.moveTo(x,y); else p.lineTo(x,y);
+    }
+    p.closePath();return p;
+  }
+
+  function drawFlame(x,y,s,phase,alpha){
+    ctx.save();
+    ctx.translate(x,y);
+    ctx.rotate(Math.sin(phase*1.7)*.08);
+    const grad=ctx.createRadialGradient(0,s*.18,2,0,s*.15,s*.72);
+    grad.addColorStop(0,`rgba(255,255,225,${.94*alpha})`);
+    grad.addColorStop(.22,`rgba(255,221,104,${.93*alpha})`);
+    grad.addColorStop(.54,`rgba(255,137,35,${.88*alpha})`);
+    grad.addColorStop(.78,`rgba(225,67,14,${.55*alpha})`);
+    grad.addColorStop(1,'rgba(170,35,5,0)');
+    ctx.fillStyle=grad;
+    ctx.beginPath();
+    ctx.moveTo(0,-s);
+    ctx.bezierCurveTo(s*.35,-s*.72,s*.42,-s*.34,s*.28,0);
+    ctx.bezierCurveTo(s*.13,s*.22,-s*.12,s*.23,-s*.29,0);
+    ctx.bezierCurveTo(-s*.42,-s*.33,-s*.27,-s*.69,0,-s);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function redrawBurn(p,time){
+    drawBase();
+    const e=easeOut(p);
+    const r=28 + e*1180;
+    const phase=time*.0016;
+    const outer=pathFor(clickX,clickY,r+18,phase);
+    const inner=pathFor(clickX,clickY,Math.max(0,r-7),phase+.22);
+
+    // dark char rim, restricted to feather pixels
+    ctx.save();
+    ctx.globalCompositeOperation='source-atop';
+    ctx.fillStyle=`rgba(56,32,18,${.42 + .34*Math.min(1,p*2)})`;
+    ctx.fill(outer);
+    ctx.globalCompositeOperation='destination-out';
+    ctx.fillStyle='#000';
+    ctx.fill(inner);
+    ctx.restore();
+
+    // warm glowing edge just ahead of char
+    ctx.save();
+    ctx.globalCompositeOperation='source-atop';
+    ctx.strokeStyle=`rgba(247,133,42,${Math.max(0,.82-p*.42)})`;
+    ctx.lineWidth=7;
+    ctx.shadowColor='rgba(255,127,32,.62)';ctx.shadowBlur=13;
+    ctx.stroke(inner);
+    ctx.restore();
+
+    // erase consumed tissue/feather
+    ctx.save();
+    ctx.globalCompositeOperation='destination-out';
+    ctx.fillStyle='#000';
+    ctx.fill(inner);
+    ctx.restore();
+
+    // flames ride the moving burn front for first 80%
+    if(p<.82){
+      const flameAlpha=Math.sin(Math.min(1,p/.12)*Math.PI/2) * (1-p/.92);
+      const angles=[-2.2,-1.65,-1.1,-.55,.15,.75,1.35,2.0];
+      angles.forEach((a,idx)=>{
+        const rr=r*(.96 + .025*Math.sin(idx*1.8+phase));
+        const x=clickX+Math.cos(a)*rr;
+        const y=clickY+Math.sin(a)*rr*.92;
+        const s=24 + 15*(.5+.5*Math.sin(phase*4+idx));
+        drawFlame(x,y,s,phase+idx,Math.max(0,flameAlpha));
+      });
+    }
+
+    // ember particles
+    embers.forEach((em,idx)=>{
+      const local=(p-em.start)/(1-em.start);
+      if(local<=0||local>=1)return;
+      const rr=r*(.96+em.radial);
+      const bx=clickX+Math.cos(em.a)*rr;
+      const by=clickY+Math.sin(em.a)*rr*.92;
+      const x=bx+em.dx*local;
+      const y=by-em.rise*local;
+      const a=Math.sin(local*Math.PI)*.88;
+      ctx.fillStyle=`rgba(245,139,46,${a})`;
+      ctx.shadowColor='rgba(255,154,64,.75)';ctx.shadowBlur=5;
+      ctx.beginPath();ctx.arc(x,y,em.size,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;
+    });
+
+    // soft smoke from ignition area
+    if(p>.08 && p<.88){
+      for(let i=0;i<5;i++){
+        const q=(p*.95+i*.13)%1;
+        const sx=clickX+(i-2)*12+Math.sin(phase+i)*9;
+        const sy=clickY-r*.18-q*125;
+        const gr=ctx.createRadialGradient(sx,sy,0,sx,sy,22+q*22);
+        gr.addColorStop(0,`rgba(92,92,92,${.12*(1-q)})`);
+        gr.addColorStop(1,'rgba(120,120,120,0)');
+        ctx.fillStyle=gr;ctx.beginPath();ctx.arc(sx,sy,26+q*25,0,Math.PI*2);ctx.fill();
+      }
+    }
+  }
+
+  function burn(ev){
+    if(locked||!ready)return;
+    locked=true;intro.classList.add('burning');hit.disabled=true;
+    const rect=canvas.getBoundingClientRect();
+    clickX=(ev.clientX-rect.left)/rect.width*W;
+    clickY=(ev.clientY-rect.top)/rect.height*H;
+    // keep ignition on the feather's central body
+    clickX=Math.max(W*.30,Math.min(W*.70,clickX));
+    clickY=Math.max(H*.16,Math.min(H*.88,clickY));
+    edgeNoise=Array.from({length:96},(_,i)=>Math.sin(i*12.9898)*.7+Math.sin(i*4.77)*.3);
+    embers=Array.from({length:44},(_,i)=>({a:(i/44)*Math.PI*2 + (i%5)*.07,start:.04+(i%11)*.045,dx:(i%2?1:-1)*(12+(i*7)%38),rise:45+(i*19)%105,size:1+(i%3)*.55,radial:(i%4)*.008}));
+    const t0=performance.now(),dur=1950;
+    function frame(t){
+      const p=Math.min(1,(t-t0)/dur);
+      redrawBurn(p,t);
+      if(p<1)requestAnimationFrame(frame);
+      else{
+        setTimeout(()=>intro.classList.add('exit'),120);
+        setTimeout(()=>{document.body.classList.remove('intro-active');intro.remove();window.scrollTo({top:0,behavior:'auto'});},920);
+      }
+    }
+    requestAnimationFrame(frame);
+  }
+  hit.addEventListener('click',burn);
+})();
+</script>
+<script>
+(() => {
+  const FA={"Mohammadmahdi Azizmohammadi — Advisory":"محمدمهدی عزیزمحمدی — مشاوره استراتژیک","Light the feather to enter.":"فقط کافی‌ست پر را آتش بزنید.","MM / ADVISORY":"MM / مشاوره","MENU":"منو","Advisory":"مشاوره","Thinking":"رویکرد فکری","Work":"تجربه‌ها","Story":"قصه و روایت","About":"درباره من","Contact":"تماس","See clearly.":"واضح‌تر ببینید.","Decide better.":"بهتر تصمیم بگیرید.","I help business leaders make sense of complex problems — finding what really matters before deciding what to do next.":"من به مدیران کسب‌وکار کمک می‌کنم وسطِ مسئله‌های پیچیده، اصل ماجرا را پیدا کنند؛ قبل از این‌که برای حلِ مسئله‌ی اشتباه وقت، انرژی و بودجه بگذارند.","Brand":"برند","Customer Experience":"تجربه مشتری","Creative Strategy":"استراتژی خلاق","Human Insight":"بینش انسانی","Available for focused advisory partnerships.":"برای همکاری‌های مشاوره‌ای متمرکز، در دسترس‌ام.","Problem framing":"تعریف مسئله","The problem you see may not be the problem you have.":"مسئله‌ای که می‌بینیم، همیشه همان مسئله‌ای نیست که واقعاً داریم.","The work starts with finding the right problem.":"کار من از پیدا کردنِ مسئله‌ی درست شروع می‌شود؛ نه از عجله برای پیدا کردنِ جواب.","“Our content isn’t working.”":"«محتوای ما نتیجه نمی‌دهد.»","Maybe. Or maybe the brand has nothing meaningful to say.":"شاید. شاید هم مسئله خودِ محتوا نباشد؛ شاید برند هنوز حرف روشن و مهمی برای گفتن ندارد.","“Customers don’t trust us.”":"«مشتری‌ها به ما اعتماد ندارند.»","Maybe it’s communication. Or maybe the experience is telling a different story.":"شاید مشکل از چیزی باشد که می‌گوییم؛ شاید هم تجربه‌ای که مشتری از ما می‌گیرد، با حرف‌هایمان هم‌خوان نیست.","“Sales are slowing down.”":"«سرعت فروش پایین آمده.»","Advertising may be part of it. More advertising may not be the answer.":"تبلیغات شاید بخشی از راه‌حل باشد؛ اما جوابِ هر افت فروشی، تبلیغات بیشتر نیست.","“Our brand feels inconsistent.”":"«برندمان یکدست نیست.»","Maybe there is no shared direction behind the decisions.":"شاید مشکل از اجرا نباشد؛ شاید تصمیم‌ها از یک جهت و منطق مشترک نمی‌آیند.","A senior second brain for complex decisions.":"یک هم‌فکرِ ارشد برای وقت‌هایی که تصمیم ساده نیست.","My focus is the problem, the direction and the decisions. Internal teams and specialist partners bring them to life.":"من روی فهمِ مسئله، روشن‌کردنِ مسیر و بهترشدنِ تصمیم‌ها تمرکز می‌کنم؛ اجرا را تیم داخلی و متخصصان هر حوزه پیش می‌برند.","Strategic Advisory":"مشاوره استراتژیک","Independent perspective for complex questions, decisions and problem framing.":"یک نگاه مستقل برای سؤال‌های سخت، تصمیم‌های مهم و وقت‌هایی که هنوز خودِ مسئله هم کاملاً روشن نیست.","Strategic Partnership":"همراهی استراتژیک","An ongoing relationship built around deeper context, strategic conversations and decision support.":"یک همکاری مستمر برای فهم عمیق‌تر کسب‌وکار، گفت‌وگوی استراتژیک و همراهی در تصمیم‌های کلیدی.","Strategic Transformation":"تحول استراتژیک","A focused engagement around a defined challenge: brand, positioning, CX, insight or communication transformation.":"یک همکاری متمرکز برای یک چالش مشخص؛ از برند و جایگاه‌یابی تا تجربه مشتری، بینش یا بازطراحی ارتباطات.","Advisory philosophy":"فلسفه همکاری","The seat beside the decision-maker.":"جای من کنارِ تصمیم‌گیرنده است.","Close enough to understand the context. Independent enough to see it differently.":"آن‌قدر نزدیک که مسئله را از داخل بفهمم؛ آن‌قدر مستقل که اسیر عادت‌ها و پیش‌فرض‌های داخل سازمان نشوم.","There is room for independent thinking.":"برای نگاه مستقل جا باشد.","Decision-makers are part of the conversation.":"خودِ تصمیم‌گیرنده پای گفت‌وگو باشد.","There is a capable team around the work.":"تیمی باشد که بتواند تصمیم را به اجرا برساند.","Questions matter as much as answers.":"سؤالِ درست به اندازه جوابِ درست اهمیت داشته باشد.","Clarity matters more than activity.":"وضوح از شلوغی و حجمِ کار مهم‌تر باشد.","I don’t sit above the team.":"بالای سرِ تیم نمی‌ایستم.","I sit beside the problem.":"کنارِ مسئله می‌ایستم.","I start with the question, not the answer.":"من از سؤال شروع می‌کنم، نه از جوابِ آماده.","The useful part of strategy often happens before the solution: seeing what is actually happening and framing the problem clearly enough to make a better decision.":"بخش مهمِ استراتژی قبل از رسیدن به راه‌حل اتفاق می‌افتد: اول باید بفهمیم واقعاً چه خبر است، بعد مسئله را درست تعریف کنیم؛ تازه آن‌وقت می‌شود تصمیم بهتری گرفت.","SEE":"دیدن","What’s actually happening?":"واقعاً چه اتفاقی دارد می‌افتد؟","UNDERSTAND":"فهمیدن","Why is it happening?":"چرا این اتفاق می‌افتد؟","FRAME":"تعریف مسئله","What’s the real problem?":"اصلِ مسئله چیست؟","DECIDE":"تصمیم","What deserves action?":"کجا واقعاً باید دست‌به‌کار شد؟","GUIDE":"هدایت","How does direction stay clear?":"چطور مسیر را در ادامه روشن نگه داریم؟","Four lenses":"چهار زاویه برای دیدنِ مسئله","From a complex world to a clearer path.":"از دلِ پیچیدگی، به یک مسیر روشن‌تر.","Business":"کسب‌وکار","Reality.":"واقعیت.","Human":"انسان","Behavior.":"رفتار.","Brand & Experience":"برند و تجربه","Perception.":"برداشت.","Narrative":"روایت","Meaning.":"معنا.","Working together":"شیوهٔ همکاری","Bring me the problem.":"مسئله را بیاورید؛ از همان‌جا شروع می‌کنیم.","You’re dealing with a real, non-obvious business question.":"با یک مسئلهٔ واقعی و نه‌چندان بدیهی در کسب‌وکارتان طرف هستید.","You need sharper framing before faster execution.":"قبل از سریع‌تر عمل‌کردن، باید مسئله را دقیق‌تر و روشن‌تر ببینید.","You value both strategy and action.":"هم کیفیتِ فکر برایتان مهم است، هم کیفیتِ اجرا.","You’re open to seeing the situation differently.":"آماده‌اید وضعیت را از زاویه‌ای تازه ببینید.","“Sometimes clarity begins with one good question.”":"«بعضی وقت‌ها وضوح، از یک سؤال درست شروع می‌شود.»","How I work":"شیوهٔ همکاری","Start with the real problem.":"از خودِ مسئله شروع کنیم.","You don’t need a finished brief.":"لازم نیست با بریفِ آماده بیایید.","Bring the question that keeps circling back.":"همان سؤالی را بیاورید که مدام برمی‌گردد و هنوز جواب روشنی ندارد.","We frame it, challenge it and decide what actually deserves action.":"با هم بازش می‌کنیم، فرض‌ها را به چالش می‌کشیم و مشخص می‌کنیم واقعاً کجا باید دست‌به‌کار شد.","Then your team can move with a clearer direction.":"بعد تیم شما می‌تواند با مسیر روشن‌تری جلو برود.","“You don’t need the answer to start. You need the right question.”":"«برای شروع لازم نیست جواب را بدانید؛ کافی‌ست سؤالِ درست را روی میز بگذارید.»","Storytelling & cinema":"قصه‌گویی و سینما","Stories taught me something strategy couldn’t.":"قصه‌گویی چیزهایی به من یاد داد که استراتژی به‌تنهایی نمی‌توانست.","People want things. Fear things. Resist things. Contradict themselves. Change their minds. Businesses are made of those same people.":"آدم‌ها چیزی می‌خواهند، از چیزی می‌ترسند، مقاومت می‌کنند، با خودشان تناقض دارند و نظرشان عوض می‌شود. همین آدم‌ها هستند که کسب‌وکارها را می‌سازند.","Human behavior, under pressure.":"رفتارِ آدم‌ها، وقتی پای فشار و انتخاب وسط است.","Screenwriting sharpened the way I look at motivation, conflict, contradiction, emotional pacing and the gap between what people say and what they do.":"فیلمنامه‌نویسی باعث شده دقیق‌تر به انگیزه، تعارض، تناقض، ریتم احساسی و فاصله‌ی میان حرف و رفتارِ آدم‌ها نگاه کنم.","I didn’t get here in a straight line.":"مسیر حرفه‌ای من هیچ‌وقت خطِ مستقیم نبوده.","Engineering taught me systems. Field sales taught me real customers. Marketing taught me markets. Brand taught me meaning. CX taught me experience. Screenwriting taught me human motivation.":"مهندسی به من نگاهِ سیستمی داد. فروش میدانی، مواجهه‌ی واقعی با مشتری و جوابِ رد. بازاریابی، بازار و رقابت. برند، معنا. تجربه مشتری، فاصله‌ی وعده تا واقعیت. و فیلمنامه‌نویسی، فهمِ عمیق‌ترِ انگیزه‌ی آدم‌ها.","Engineering":"مهندسی","Systems and industrial reality.":"نگاه سیستمی و واقعیتِ صنعت.","Field Sales":"فروش میدانی","Real customers and real rejection.":"مشتری واقعی، مذاکره واقعی و جوابِ رد واقعی.","Marketing":"بازاریابی","Markets and attention.":"بازار، رقابت و جلبِ توجه.","The distance between promise and reality.":"فاصله‌ی وعده تا واقعیت.","Screenwriting":"فیلمنامه‌نویسی","Motivation, conflict and contradiction.":"انگیزه، تعارض و تناقض.","Selected work":"چند تجربه منتخب","Six stories.":"شش تجربه.","One way of thinking.":"یک شیوه‌ی نگاه.","Less about what was produced. More about what changed in the way the problem was seen.":"اینجا بیشتر از خودِ خروجی، روی تغییری تمرکز کرده‌ام که در تعریفِ مسئله و مسیرِ تصمیم اتفاق افتاد.","Nikan Hospitals":"بیمارستان‌های نیکان","Brand → Experience":"از برند تا تجربه","Nikan365":"نیکان ۳۶۵","Visit → Relationship":"از مراجعه تا رابطه","Hamrah Mechanic":"همراه مکانیک","Trust → Familiarity":"از اعتماد تا آشنایی","Khanoumi":"خانومی","Campaign → Participation":"از کمپین تا مشارکت","Baman":"بامن","Product → Relevance":"از محصول تا ارتباط با زندگیِ آدم‌ها","Azki Seller":"ازکی‌سلر","Communication → Trust → Activation → Growth":"ارتباطات ← اعتماد ← شروع همکاری ← رشد","Selected case":"تجربه منتخب","Signal":"آنچه دیدیم","Nikan was investing across brand, marketing, content, digital products and patient-facing touchpoints.":"نیکان هم‌زمان روی برند، بازاریابی، محتوا، محصولات دیجیتال و تجربه‌ی بیمار سرمایه‌گذاری می‌کرد.","Real problem":"مسئله واقعی","The brand wasn’t only being communicated. It was being experienced.":"برند فقط چیزی نبود که می‌گفتیم؛ بیمار آن را در تمام نقاط تماس تجربه می‌کرد.","Direction":"مسیر","From Brand Management to Brand Experience.":"از مدیریتِ برند به مدیریتِ تجربه‌ی برند.","Role":"نقش","Manager — Branding, Marketing & CX":"مدیر برند، بازاریابی و تجربه‌ی مشتری","Contribution":"نقش من","Led the shift from brand communication toward a broader patient-experience system.":"مسیر را از «ارتباطات برند» به سمتِ طراحی و مدیریتِ یکپارچه‌ترِ تجربه‌ی بیمار بردم.","digital healthcare platforms":"پلتفرم سلامت دیجیتال","500K+":"بیش از ۵۰۰ هزار","users in the Nikan365 ecosystem":"کاربر در اکوسیستم نیکان ۳۶۵","Brand → CX":"از برند به تجربه‌ی مشتری","a broader experience system":"نگاهی یکپارچه‌تر به تجربه‌ی بیمار","A patient’s relationship with a hospital is usually concentrated around a visit.":"رابطه‌ی بیمار با بیمارستان معمولاً حولِ همان مراجعه شکل می‌گیرد و خیلی زود تمام می‌شود.","The opportunity wasn’t just to digitize the visit. It was to extend the relationship beyond it.":"فرصت فقط دیجیتال‌کردنِ فرایندِ مراجعه نبود؛ می‌شد رابطه‌ی بیمار و بیمارستان را بعد از مراجعه هم ادامه داد.","From a digital platform to an ongoing patient relationship.":"از یک سرویس دیجیتال به رابطه‌ای مداوم با بیمار.","Helped shape Nikan365 as an ongoing patient-relationship layer within the wider digital ecosystem.":"در شکل‌گیری نیکان ۳۶۵ به‌عنوان بخشی از اکوسیستم دیجیتال نیکان برای حفظِ ارتباطِ مستمر با بیمار نقش داشتم.","users across the ecosystem":"کاربر در اکوسیستم","digital platforms in the wider transformation":"پلتفرم دیجیتال در این مسیر","continuity beyond the hospital encounter":"ادامه‌ی ارتباط پس از مراجعه","Buying and selling a car is high-friction: significant money, asymmetric information and fragile trust.":"خریدوفروش خودرو پرتنش است: پای پولِ زیادی در میان است، اطلاعاتِ دو طرف برابر نیست و اعتماد به‌سادگی آسیب می‌بیند.","Trust wasn’t only a rational issue. It was a relationship issue.":"اعتماد فقط با عدد و استدلال ساخته نمی‌شد؛ جنسِ رابطه هم باید عوض می‌شد.","From an automotive service to a familiar companion — «آشنا».":"از یک سرویسِ خودرو به یک همراهِ آشنا و قابل‌اعتماد: «آشنا».","Creative Director":"مدیر خلاقیت","Led creative direction, cultural reframing and brand storytelling around familiarity and trust.":"جهتِ خلاقه، بازتعریفِ مفهومِ «آشنایی» و روایتِ برند حول اعتماد را هدایت کردم.","+50%":"بیش از ۵۰٪","social audience growth recorded for the period":"رشد مخاطبان شبکه‌های اجتماعی در آن دوره","the cultural framing of familiarity":"بازتعریفِ فرهنگیِ «آشنایی»","a more human relationship model":"رابطه‌ای انسانی‌تر با مخاطب","Beauty is emotionally rich, yet communication can collapse into offers, products and promotional messages.":"دنیای زیبایی پر از احساس، هویت و میل است؛ اما ارتباطاتش خیلی راحت می‌تواند به محصول، تخفیف و پیامِ تبلیغاتی خلاصه شود.","The opportunity wasn’t simply to make campaigns more visible. It was to give people something to enter.":"هدف فقط این نبود که کمپین بیشتر دیده شود؛ می‌خواستیم مخاطب بتواند واردِ تجربه شود و در آن نقش داشته باشد.","From campaign communication to participatory brand experience.":"از یک کمپینِ یک‌طرفه به تجربه‌ای مشارکتی از برند.","Led campaign concepts, participatory ideas and phygital experiences across the brand.":"ایده و جهتِ خلاقِ کمپین‌ها، ایده‌های مشارکتی و تجربه‌های فیجیتالِ برند را هدایت کردم.","+30%":"بیش از ۳۰٪","sales lifts on campaign work, recorded for the period":"رشد فروش در کمپین‌های منتخب","Audience → Participant":"از مخاطب به مشارکت‌کننده","interaction over one-way messaging":"تعامل به‌جای پیامِ یک‌طرفه","Phygital":"فیجیتال","physical + digital participation":"ترکیب تجربه‌ی فیزیکی و دیجیتال","Digital financial products can be useful and still feel distant.":"یک محصول مالیِ دیجیتال ممکن است مفید باشد، اما هنوز برای آدم‌ها دور از زندگیِ واقعی‌شان به نظر برسد.","The gap wasn’t only between product and communication. It was between product logic and human relevance.":"فاصله فقط میان محصول و ارتباطات نبود؛ محصول هنوز دلیلِ کافی برای مهم‌بودن در زندگیِ کاربر نداشت.","From product communication to meaningful use.":"از توضیحِ محصول به پیدا کردنِ یک دلیلِ واقعی برای استفاده.","Creative Mind Lead":"رهبر ایده‌پردازی خلاق","Connected product communication with relevance, acquisition and growth-oriented creative work.":"ارتباطاتِ محصول را به نیازِ واقعیِ کاربر، جذب و ایده‌های رشد پیوند دادم.","+17%":"بیش از ۱۷٪","app-user growth from targeted campaigns":"رشد کاربران اپلیکیشن با کمپین‌های هدفمند","Creative × Growth":"خلاقیت × رشد","product communication linked to acquisition":"پیوندِ ارتباطات محصول با جذبِ کاربر","a more human reason to matter":"دلیلی ملموس‌تر و انسانی‌تر برای انتخابِ محصول","Flagship case · Azki Seller":"تجربه محوری · ازکی‌سلر","Communication was only the surface.":"ارتباطات فقط نوکِ مسئله بود.","The first problem wasn’t awareness. It was confidence.":"مسئله‌ی اول دیده‌شدن نبود؛ اطمینان بود.","Seller hesitation appeared around customer ownership, renewal, data, operational reliability and business value.":"تردیدِ فروشنده‌ها دورِ چند سؤال می‌چرخید: مشتری برای چه کسی می‌ماند؟ تمدید چه می‌شود؟ داده‌ها چقدر امن‌اند؟ عملیات چقدر قابل‌اتکاست؟ و در نهایت، این همکاری واقعاً چه ارزشی دارد؟","Supervisor Brand & Marketing Communications":"سرپرست ارتباطات برند و بازاریابی","Built the problem frame, trust architecture, seller lifecycle and growth-system direction.":"صورتِ مسئله، معماریِ اعتماد، مسیرِ رشدِ فروشنده و جهتِ کلیِ سیستم رشد را طراحی کردم.","Trust architecture":"معماری اعتماد","Don’t say “trust us.”":"فقط نگوییم «به ما اعتماد کنید».","Make trust inspectable.":"اعتماد را با شواهد نشان بدهیم، نه با ادعا.","Product Truth":"واقعیت محصول","Customer ownership · Renewal · Data · Rules":"مالکیت مشتری · تمدید · داده · قواعد","Operational Truth":"واقعیت عملیات","SLA · Issuance · Support · Problem resolution":"SLA · صدور · پشتیبانی · حل مسئله","Human Proof":"شواهد واقعی","Seller stories · Networks · Centers":"تجربه‌ی فروشنده‌ها · شبکه‌ها · مراکز","Seller journey":"مسیر فروشنده","A seller growth system.":"یک مسیرِ روشن برای رشدِ فروشنده.","DISCOVER":"آشنایی","Is this for me?":"آیا این مدل به دردِ من می‌خورد؟","TRUST":"اعتماد","Is my customer safe?":"آیا مشتری‌ام برای خودم می‌ماند؟","ACTIVATE":"شروع","Can I start?":"چقدر راحت می‌توانم شروع کنم؟","EARN":"درآمد","Does it make money?":"واقعاً برایم درآمد دارد؟","EXPAND":"گسترش","What else can I sell?":"چه چیزهای دیگری می‌توانم بفروشم؟","BUILD":"رشد","How do I grow?":"چطور کارم را بزرگ‌تر کنم؟","ADVOCATE":"توصیه","Why recommend it?":"چرا باید به بقیه پیشنهادش بدهم؟","Growth engines":"موتورهای رشد","Five growth engines.":"پنج موتور برای رشدِ فروشنده.","Seller Activation":"شروعِ کارِ فروشنده","Registration → Productive Seller":"از ثبت‌نام تا فروشنده‌ی فعال","Seller Economics":"منطقِ درآمدیِ فروشنده","Commission → Tangible Value":"از کمیسیون تا ارزشِ واقعی","Product Growth":"رشد محصول","Product × Ops × Marketing":"محصول × عملیات × بازاریابی","Business Growth":"رشد کسب‌وکار","Seller → Network → Center":"از فروشنده به شبکه و مرکز","Trust & Advocacy":"اعتماد و توصیه","Claim → Proof → Seller Voice":"از ادعا به شواهد واقعی، بعد به روایتِ خودِ فروشنده","Strategic output":"خروجی استراتژیک","The website as a Seller Decision Engine.":"وب‌سایت؛ نه فقط ویترین، بلکه ابزارِ تصمیم‌گیریِ فروشنده.","The website can do more than explain the product. It can help a seller make a decision.":"وب‌سایت فقط برای توضیحِ محصول نیست؛ باید به فروشنده کمک کند تصمیم بگیرد.","Question":"سؤال","What do I need to know?":"چه چیزهایی باید بدانم؟","Proof":"دلیل","Why should I believe it?":"چرا باید باورش کنم؟","Economics":"صرفه اقتصادی","Does it make sense?":"آیا برای من می‌صرفد؟","Opportunity":"فرصت رشد","Can this grow with me?":"آیا می‌توانم با این فرصت رشد کنم؟","Outputs":"خروجی‌ها","Seller-growth architecture · Trust-proof framework · Lifecycle & CRM direction · Website decision architecture · Claims governance · Five growth engines · Cross-functional operating model · 90-day roadmap · Creative territories.":"معماریِ رشدِ فروشنده · چارچوبِ اثباتِ اعتماد · طراحیِ چرخه‌ی عمر و CRM · معماریِ تصمیم‌گیریِ وب‌سایت · چارچوبِ مدیریتِ ادعاها · پنج موتورِ رشد · مدلِ همکاریِ بین‌تیمی · نقشه‌ی راهِ ۹۰روزه · قلمروهای خلاقه.","Azki Seller · The lesson":"ازکی‌سلر · آنچه از این تجربه یاد گرفتم","What problem framing does.":"وقتی مسئله را درست تعریف کنیم، مسیرِ راه‌حل عوض می‌شود.","What looked like a communication problem became a trust problem.":"چیزی که اول مسئله‌ی ارتباطات به نظر می‌رسید، در اصل مسئله‌ی اعتماد بود.","What looked like a trust problem became an activation problem.":"بعد معلوم شد مسئله فقط اعتماد هم نیست؛ فروشنده بعد از ثبت‌نام چطور واقعاً شروع به کار می‌کند؟","What looked like an activation problem became a growth-system problem.":"و همین سؤال ما را به مسئله‌ای بزرگ‌تر رساند: سیستمِ رشدِ فروشنده چطور باید کار کند؟","Bring me the problem.":"مسئله را بیاورید؛ از همان‌جا شروع می‌کنیم.","You don’t need a polished brief. If something in the business feels stuck, unclear, or important enough to deserve a sharper look, that’s enough to start.":"لازم نیست بریفِ بی‌نقص داشته باشید. اگر چیزی در کسب‌وکارتان گیر کرده، تصمیمی هنوز روشن نیست یا حس می‌کنید مسئلهٔ واقعی جای دیگری است، همان برای شروع کافی است.","Project-based engagements, strategic reviews and ongoing advisory are all possible.":"همکاری می‌تواند پروژه‌ای، دوره‌ای یا به‌صورت همراهیِ مستمر باشد.","Mohammadmahdi Azizmohammadi":"محمدمهدی عزیزمحمدی","Mohammadmahdi Azizmohammadi · Strategic Brand & Business Advisor · Story & Narrative Architect":"محمدمهدی عزیزمحمدی · مشاور استراتژیک برند و کسب‌وکار · معمار قصه و روایت"};
+  const ATTR_FA={
+    "Enter website":"ورود به سایت",
+    "Burn the feather":"پر را آتش بزن",
+    "Toggle menu":"باز و بسته کردن منو",
+    "White feather illustration":"تصویر یک پر سفید",
+    "Mohammadmahdi Azizmohammadi portrait":"پرتره محمدمهدی عزیزمحمدی",
+    "White feather":"پر سفید"
+  };
+  const textNodes=[];
+  const originalText=new WeakMap();
+  const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode(node){
+    if(!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+    const p=node.parentElement;
+    if(!p || ["SCRIPT","STYLE"].includes(p.tagName)) return NodeFilter.FILTER_REJECT;
+    return NodeFilter.FILTER_ACCEPT;
+  }});
+  let n;
+  while(n=walker.nextNode()){textNodes.push(n);originalText.set(n,n.nodeValue);}
+  const attrEls=[...document.querySelectorAll("[aria-label],[alt]")];
+  attrEls.forEach(el=>{
+    if(el.hasAttribute("aria-label")) el.dataset.origAria=el.getAttribute("aria-label");
+    if(el.hasAttribute("alt")) el.dataset.origAlt=el.getAttribute("alt");
+  });
+  const meta=document.querySelector('meta[name="description"]');
+  const originalMeta=meta?.getAttribute("content")||"";
+  const originalTitle=document.title;
+  function preserveSpace(orig,repl){
+    const m1=orig.match(/^\s*/)?.[0]||"";
+    const m2=orig.match(/\s*$/)?.[0]||"";
+    return m1+repl+m2;
+  }
+  function setLanguage(lang,store=true){
+    const faMode=lang==="fa";
+    document.documentElement.lang=faMode?"fa":"en";
+    document.documentElement.dir=faMode?"rtl":"ltr";
+    textNodes.forEach(node=>{
+      const orig=originalText.get(node);
+      const key=orig.trim();
+      const repl=faMode?(FA[key]??key):key;
+      node.nodeValue=preserveSpace(orig,repl);
+    });
+    attrEls.forEach(el=>{
+      if(el.dataset.origAria!==undefined) el.setAttribute("aria-label",faMode?(ATTR_FA[el.dataset.origAria]||el.dataset.origAria):el.dataset.origAria);
+      if(el.dataset.origAlt!==undefined) el.setAttribute("alt",faMode?(ATTR_FA[el.dataset.origAlt]||el.dataset.origAlt):el.dataset.origAlt);
+    });
+    document.querySelectorAll("[data-lang-toggle]").forEach(btn=>{
+      btn.textContent=faMode?"EN":"فارسی";
+      btn.setAttribute("aria-label",faMode?"Switch to English":"تغییر زبان به فارسی");
+    });
+    document.title=faMode?"محمدمهدی عزیزمحمدی — مشاوره استراتژیک":originalTitle;
+    if(meta) meta.setAttribute("content",faMode?"محمدمهدی عزیزمحمدی — مشاور استراتژیک برند و کسب‌وکار · معمار قصه و روایت":originalMeta);
+    if(store) try{localStorage.setItem("mm-lang",lang)}catch(e){}
+  }
+  document.querySelectorAll("[data-lang-toggle]").forEach(btn=>btn.addEventListener("click",()=>setLanguage(document.documentElement.lang==="fa"?"en":"fa")));
+  let saved="en";
+  try{saved=localStorage.getItem("mm-lang")||"en"}catch(e){}
+  setLanguage(saved,false);
+})();
+</script></body>
+</html>
