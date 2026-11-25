@@ -3,4 +3,10 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/azizmohammadii/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp site.css $DEPLOYPATH
+    - /bin/cp site.js $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp 404.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
