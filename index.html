@@ -628,25 +628,16 @@ html[dir="rtl"] .hero h1{font-size:clamp(2.15rem,8.5vw,3.05rem)!important;line-h
     padding:18px var(--pad) 22px;
   }
   .navlinks a{padding:8px 0;font-size:.96rem}
-  .nav-actions{gap:7px}
-  .portfolio-btn{display:none}
-  .lang-toggle{padding:8px 11px;font-size:.78rem}
-  .menu{font-size:.78rem}
-  .portfolio-mobile{display:none!important}
-  @media(max-width:900px){
-    .portfolio-mobile{
-      display:flex!important;
-      align-items:center;
-      justify-content:center;
-      min-height:44px;
-      margin-top:6px;
-      padding:10px 14px!important;
-      border:1px solid var(--ink);
-      color:var(--ink)!important;
-      font-weight:600;
-      font-size:.9rem!important;
-    }
+  .nav-actions{gap:6px}
+  .portfolio-btn{
+    display:inline-flex;
+    min-height:34px;
+    padding:7px 10px;
+    font-size:.72rem;
+    letter-spacing:.02em;
   }
+  .lang-toggle{padding:8px 10px;font-size:.76rem}
+  .menu{font-size:.76rem;padding:8px 0}
 
   section{padding:54px 0}
   .divider{margin:0 var(--pad)}
@@ -922,10 +913,13 @@ html[dir="rtl"] .hero h1{font-size:clamp(2.15rem,8.5vw,3.05rem)!important;line-h
 }
 
 @media (max-width: 420px){
-  :root{--pad:16px}
-  .brand{font-size:.76rem}
-  .lang-toggle{padding:7px 9px;font-size:.72rem}
-  .menu{font-size:.72rem}
+  :root{--pad:14px}
+  .nav{gap:8px}
+  .brand{font-size:.7rem;max-width:82px;line-height:1.1}
+  .nav-actions{gap:4px}
+  .portfolio-btn{min-height:32px;padding:6px 8px;font-size:.66rem}
+  .lang-toggle{padding:7px 8px;font-size:.68rem}
+  .menu{font-size:.68rem}
   .hero h1,
   html[dir="rtl"] .hero h1{
     font-size:clamp(2rem,10vw,2.65rem)!important;
@@ -960,7 +954,6 @@ html[dir="rtl"] .hero h1{font-size:clamp(2.15rem,8.5vw,3.05rem)!important;line-h
 <a href="#work">Work</a>
 <a href="#story">Story &amp; About</a>
 <a href="#contact">Contact</a>
-<a class="portfolio-mobile" href="https://portfolio.azizmohammadii.ir/index-fa.html" target="_blank" rel="noopener noreferrer">PORTFOLIO ↗</a>
 </nav>
 <div class="nav-actions"><a class="portfolio-btn" href="https://portfolio.azizmohammadii.ir/index-fa.html" target="_blank" rel="noopener noreferrer">PORTFOLIO ↗</a><button aria-label="Switch to Persian" class="lang-toggle header-lang-toggle" data-lang-toggle="" type="button">فارسی</button><button aria-label="Toggle menu" class="menu">MENU</button></div></div>
 </header>
@@ -1358,7 +1351,7 @@ html[dir="rtl"] .hero h1{font-size:clamp(2.15rem,8.5vw,3.05rem)!important;line-h
 <script>
 (() => {
   const FA={
-    "PORTFOLIO ↗":"پورتفولیو ↗","Why the feather":"قصهٔ پر",
+    "PORTFOLIO ↗":"نمونه‌کار ↗","Why the feather":"قصهٔ پر",
     "Story & About":"قصه و مسیر من",
     "The Simorgh feather":"قصهٔ پر سیمرغ",
     "If the work gets stuck, burn the feather.":"اگر کار گره خورد، پر را آتش بزنید.",
