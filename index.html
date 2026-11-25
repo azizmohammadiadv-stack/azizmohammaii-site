@@ -933,6 +933,76 @@ html[dir="rtl"] .hero h1{font-size:clamp(2.15rem,8.5vw,3.05rem)!important;line-h
   .case-toggle{font-size:.9rem}
 }
 </style>
+
+<style>
+/* DANA_ADVISORY_TYPE_SYSTEM_V13
+   Upload these files to assets/fonts/:
+   Dana-Regular.ttf, Dana-Medium.ttf, Dana-DemiBold.ttf, Dana-Bold.ttf */
+@font-face{
+  font-family:"DanaWeb";
+  src:url("assets/fonts/Dana-Regular.ttf") format("truetype");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"DanaWeb";
+  src:url("assets/fonts/Dana-Medium.ttf") format("truetype");
+  font-weight:500;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"DanaWeb";
+  src:url("assets/fonts/Dana-DemiBold.ttf") format("truetype");
+  font-weight:600;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"DanaWeb";
+  src:url("assets/fonts/Dana-Bold.ttf") format("truetype");
+  font-weight:700;
+  font-style:normal;
+  font-display:swap;
+}
+
+body,
+html[dir="rtl"] body{
+  font-family:"DanaWeb","IBM Plex Sans","Vazirmatn","IRANSansX",Tahoma,Arial,sans-serif;
+  font-weight:400;
+}
+.brand,.navlinks,.lang-toggle,.portfolio-btn,.menu,.eyebrow,.label{
+  font-family:"DanaWeb","IBM Plex Sans",sans-serif;
+  font-weight:500;
+}
+h1,h2,h3,.bigquote,.compact-quote,.myth-line{
+  font-family:"DanaWeb","IBM Plex Sans",sans-serif;
+  font-weight:600;
+}
+h1{font-weight:600}
+h2{font-weight:600}
+h3{font-weight:600}
+.lead,.muted,.myth-note,.compact-card p,.work-head p{
+  font-weight:400;
+}
+.case-toggle,.text-link,.contact-info strong{
+  font-weight:600;
+}
+
+/* advisory tone: restrained, executive, less theatrical */
+html[dir="rtl"] body{line-height:1.82}
+html[dir="rtl"] .lead{line-height:1.86}
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3{
+  letter-spacing:-.018em!important;
+}
+html[dir="rtl"] .eyebrow,
+html[dir="rtl"] .label{
+  font-weight:500;
+}
+</style>
 </head>
 <body class="intro-active">
 <div aria-label="Enter website" class="site-intro" id="siteIntro"><button aria-label="Switch to Persian" class="lang-toggle intro-lang-toggle" data-lang-toggle="" type="button">فارسی</button>
